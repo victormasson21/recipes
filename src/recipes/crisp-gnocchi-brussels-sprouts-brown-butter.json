@@ -1,0 +1,68 @@
+{
+  "id": "crisp-gnocchi-brussels-sprouts-brown-butter",
+  "title": "Crisp gnocchi with Brussels sprouts and brown butter",
+  "tag": "staples",
+  "source": {
+    "url": "https://cooking.nytimes.com/recipes/1020453-crisp-gnocchi-with-brussels-sprouts-and-brown-butter",
+    "site": "NYT Cooking",
+    "title": "Crisp Gnocchi With Brussels Sprouts and Brown Butter"
+  },
+  "ingredients": [
+    { "name": "Brussels sprouts", "amount": "1 lb, or broccoli, cauliflower or cabbage" },
+    { "name": "Lemon", "amount": "1" },
+    { "name": "Extra-virgin olive oil", "amount": "4 tbsp" },
+    { "name": "Kosher salt", "amount": "to taste" },
+    { "name": "Black pepper", "amount": "to taste" },
+    { "name": "Red-pepper flakes", "amount": "½ tsp" },
+    { "name": "Potato gnocchi", "amount": "1 × 18oz package, shelf-stable or refrigerated" },
+    { "name": "Unsalted butter", "amount": "6 tbsp" },
+    { "name": "Honey", "amount": "½ tsp" },
+    { "name": "Parmesan", "amount": "to serve, freshly grated" }
+  ],
+  "instructions": [
+    "Trim and halve the Brussels sprouts. Peel thick strips of zest from the lemon and chop them coarsely, to get about 2 tsp.",
+    "Heat 3 tbsp of the oil in a large skillet over medium-high. Add the sprouts, season with ½ tsp salt and a few grinds of pepper, and arrange them cut side down in one layer. Scatter the zest over the top and cook, undisturbed, until well browned underneath, 3 to 5 minutes. Add the red-pepper flakes, stir, and cook until crisp-tender, 2 to 3 minutes. Transfer to a bowl.",
+    "In the same skillet, heat the remaining 1 tbsp oil over medium-high. Break up any gnocchi stuck together, add them to the pan and cook, covered and undisturbed, until golden on one side, 2 to 4 minutes.",
+    "Add the butter and honey, season with salt and a generous amount of pepper, and cook, stirring, until the butter is golden, nutty and foaming, 1 to 2 minutes. Stir in the sprouts until warmed through. Serve with grated Parmesan."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Extra-virgin olive oil", "amount": "3 tbsp", "note": "large skillet, medium-high heat" },
+        { "name": "Brussels sprouts", "amount": "1 lb", "note": "trimmed and halved, cut side down in one layer" },
+        { "name": "Kosher salt", "amount": "½ tsp" },
+        { "name": "Black pepper", "amount": "a few grinds" },
+        { "name": "Lemon zest", "amount": "2 tsp", "note": "thick strips, coarsely chopped, scattered on top" }
+      ]
+    },
+    { "kind": "wait", "duration": "3 to 5 minutes", "note": "undisturbed, until well browned underneath" },
+    { "kind": "add", "items": [{ "name": "Red-pepper flakes", "amount": "½ tsp", "note": "stir" }] },
+    { "kind": "wait", "duration": "2 to 3 minutes", "note": "until crisp-tender, then transfer to a bowl" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Extra-virgin olive oil", "amount": "1 tbsp", "note": "same skillet, medium-high heat" },
+        { "name": "Potato gnocchi", "amount": "1 × 18oz package", "note": "broken apart, then cover the pan" }
+      ]
+    },
+    { "kind": "wait", "duration": "2 to 4 minutes", "note": "covered and undisturbed, until golden on one side" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Unsalted butter", "amount": "6 tbsp", "note": "sliced into 6 pieces" },
+        { "name": "Honey", "amount": "½ tsp" },
+        { "name": "Kosher salt", "amount": "to taste" },
+        { "name": "Black pepper", "amount": "a generous amount" }
+      ]
+    },
+    { "kind": "wait", "duration": "1 to 2 minutes", "note": "stirring, until the butter is golden, nutty and foaming" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Brussels sprouts", "amount": "from the bowl", "note": "stir until warmed through" },
+        { "name": "Parmesan", "amount": "to serve", "note": "freshly grated" }
+      ]
+    }
+  ]
+}

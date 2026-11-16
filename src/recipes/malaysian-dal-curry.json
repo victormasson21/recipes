@@ -1,0 +1,82 @@
+{
+  "id": "malaysian-dal-curry",
+  "title": "Malaysian dal curry",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2022/oct/29/vegan-malaysian-dal-curry-recipe-meera-sodha",
+    "site": "The Guardian",
+    "title": "Meera Sodha's vegan recipe for Malaysian dal curry",
+    "image": "https://i.guim.co.uk/img/media/c25eaf3653090cb6ae404507c1d149344766dd2f/0_640_2978_1787/master/2978.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4bbfa21d55fd06bbf4c65e095ef5e44c"
+  },
+  "ingredients": [
+    { "name": "Rapeseed oil", "amount": "3 tbsp" },
+    { "name": "Curry leaves", "amount": "10, fresh or frozen" },
+    { "name": "Lemongrass", "amount": "1 stick" },
+    { "name": "Star anise", "amount": "2" },
+    { "name": "Large onion", "amount": "1" },
+    { "name": "Garlic cloves", "amount": "2" },
+    { "name": "Ground coriander", "amount": "1 tsp" },
+    { "name": "Ground cumin", "amount": "1 tsp" },
+    { "name": "Ground turmeric", "amount": "½ tsp" },
+    { "name": "Kashmiri chilli", "amount": "1½ tsp" },
+    { "name": "Tomato puree", "amount": "1½ tbsp" },
+    { "name": "Red lentils", "amount": "300g" },
+    { "name": "Fine sea salt", "amount": "1¼ tsp" },
+    { "name": "Medium carrots", "amount": "2 (150g)" },
+    { "name": "Coconut milk", "amount": "1 × 400ml tin" },
+    { "name": "Tamarind paste", "amount": "1½ tbsp" },
+    { "name": "Crispy chilli oil", "amount": "to serve" }
+  ],
+  "instructions": [
+    "Bruise the lemongrass. Peel and finely chop the onion, peel and mince the garlic, and peel the carrots and cut them into 1cm cubes.",
+    "Warm the oil in a large saucepan on a medium heat. Add the curry leaves, lemongrass and star anise and cook until the leaves crackle. Stir in the onion and cook for about 6 minutes, until soft and translucent, then add the garlic and cook for 2 minutes more.",
+    "Add the coriander, cumin, turmeric and chilli and stir to mix. Add the tomato puree, lentils and salt and cook for 2 minutes.",
+    "Add the carrots and coconut milk, then fill the empty coconut milk tin twice with tap water and add that too. Cook, stirring occasionally, for 20 to 25 minutes, until the dal is thick and the carrots are tender.",
+    "Stir through the tamarind paste, then taste and adjust the salt, chilli or tamarind. Serve topped with a spoonful of crispy chilli oil, with paratha or steamed rice."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Rapeseed oil", "amount": "3 tbsp", "note": "large saucepan, medium heat" },
+        { "name": "Curry leaves", "amount": "10" },
+        { "name": "Lemongrass", "amount": "1 stick", "note": "bruised" },
+        { "name": "Star anise", "amount": "2" }
+      ]
+    },
+    { "kind": "wait", "duration": "Until the leaves crackle" },
+    { "kind": "add", "items": [{ "name": "Onion", "amount": "1 large", "note": "peeled and finely chopped" }] },
+    { "kind": "wait", "duration": "6 minutes", "note": "until soft and translucent" },
+    { "kind": "add", "items": [{ "name": "Garlic cloves", "amount": "2", "note": "peeled and minced" }] },
+    { "kind": "wait", "duration": "2 minutes" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Ground coriander", "amount": "1 tsp" },
+        { "name": "Ground cumin", "amount": "1 tsp" },
+        { "name": "Ground turmeric", "amount": "½ tsp" },
+        { "name": "Kashmiri chilli", "amount": "1½ tsp", "note": "stir to mix" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Tomato puree", "amount": "1½ tbsp" },
+        { "name": "Red lentils", "amount": "300g" },
+        { "name": "Fine sea salt", "amount": "1¼ tsp" }
+      ]
+    },
+    { "kind": "wait", "duration": "2 minutes" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Carrots", "amount": "2 medium", "note": "peeled and cut into 1cm cubes" },
+        { "name": "Coconut milk", "amount": "1 × 400ml tin" },
+        { "name": "Tap water", "amount": "2 tins", "note": "fill the empty coconut milk tin twice" }
+      ]
+    },
+    { "kind": "wait", "duration": "20 to 25 minutes", "note": "stirring occasionally, until thick and the carrots are tender" },
+    { "kind": "add", "items": [{ "name": "Tamarind paste", "amount": "1½ tbsp", "note": "stir through, then taste and adjust salt, chilli or tamarind" }] },
+    { "kind": "add", "items": [{ "name": "Crispy chilli oil", "amount": "a spoonful", "note": "to serve, with paratha or steamed rice" }] }
+  ]
+}

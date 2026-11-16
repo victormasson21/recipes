@@ -1,0 +1,81 @@
+{
+  "id": "tahini-beans-basil-pine-nuts",
+  "title": "Tahini beans with basil and pine nuts",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2025/nov/01/tahini-beans-basil-pine-nuts-recipe-meera-sodha",
+    "site": "The Guardian",
+    "title": "Meera Sodha's recipe for tahini beans with basil and pine nuts",
+    "image": "https://i.guim.co.uk/img/media/29efc18fe78d4e11624852fbf3b946162821109a/176_52_3537_2830/master/3537.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d423c2b8ef87b48f4293cd8bd515773d"
+  },
+  "ingredients": [
+    { "name": "Extra-virgin olive oil", "amount": "4 tbsp, plus extra to finish" },
+    { "name": "Red onions", "amount": "2" },
+    { "name": "Fine sea salt", "amount": "1 tsp" },
+    { "name": "Lemons", "amount": "2" },
+    { "name": "Garlic cloves", "amount": "4" },
+    { "name": "Sun-dried tomato paste", "amount": "5 tbsp" },
+    { "name": "Aleppo pepper", "amount": "2 tsp" },
+    { "name": "Butter beans in water", "amount": "2 × 400g tins" },
+    { "name": "Vegetable stock cube", "amount": "1" },
+    { "name": "Tahini", "amount": "3 tbsp" },
+    { "name": "Freshly ground black pepper", "amount": "½ tsp" },
+    { "name": "Pine nuts", "amount": "3 tbsp (30g)" },
+    { "name": "Flatbreads", "amount": "to serve" },
+    { "name": "Fresh basil", "amount": "15g" }
+  ],
+  "instructions": [
+    "Peel the zest of one lemon off in strips, then juice both lemons to get 5 tbsp. Peel and finely chop the onions, and peel and mince the garlic.",
+    "Warm the oil in a large saucepan on a medium to low heat. Add the onions, salt and lemon peel and cook, stirring, for 8 minutes, until very soft and translucent. Add the garlic and fry for a minute, until the raw smell has gone.",
+    "Stir in the tomato paste and Aleppo pepper and cook for 4 to 5 minutes. Tip in the beans with their water and cook for 10 minutes.",
+    "Crumble in the stock cube, add the tahini, black pepper and 600ml boiling water, mix well, then simmer gently for 10 minutes. Add the lemon juice, cook for 5 more minutes and take off the heat.",
+    "Toast the pine nuts in a small dry frying pan, stirring, for 4 to 5 minutes, until golden.",
+    "Heat the flatbreads. Divide the beans between bowls, scatter over the pine nuts and torn basil, drizzle with olive oil and serve with the flatbreads."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Extra-virgin olive oil", "amount": "4 tbsp", "note": "large saucepan, medium to low heat" },
+        { "name": "Red onions", "amount": "2", "note": "peeled and finely chopped" },
+        { "name": "Fine sea salt", "amount": "1 tsp" },
+        { "name": "Lemon zest", "amount": "1 lemon", "note": "peeled off in strips" }
+      ]
+    },
+    { "kind": "wait", "duration": "8 minutes", "note": "stirring, until very soft and translucent" },
+    { "kind": "add", "items": [{ "name": "Garlic cloves", "amount": "4", "note": "peeled and minced" }] },
+    { "kind": "wait", "duration": "1 minute", "note": "until the raw garlic smell disappears" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Sun-dried tomato paste", "amount": "5 tbsp" },
+        { "name": "Aleppo pepper", "amount": "2 tsp" }
+      ]
+    },
+    { "kind": "wait", "duration": "4 to 5 minutes" },
+    { "kind": "add", "items": [{ "name": "Butter beans in water", "amount": "2 tins", "note": "400g each, not drained" }] },
+    { "kind": "wait", "duration": "10 minutes" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Vegetable stock cube", "amount": "1", "note": "crumbled" },
+        { "name": "Tahini", "amount": "3 tbsp" },
+        { "name": "Freshly ground black pepper", "amount": "½ tsp" },
+        { "name": "Boiling water", "amount": "600ml", "note": "mix well, turn down to a simmer" }
+      ]
+    },
+    { "kind": "wait", "duration": "10 minutes", "note": "bubbling gently" },
+    { "kind": "add", "items": [{ "name": "Lemon juice", "amount": "5 tbsp", "note": "from both lemons" }] },
+    { "kind": "wait", "duration": "5 minutes", "note": "then take off the heat" },
+    { "kind": "add", "items": [{ "name": "Pine nuts", "amount": "3 tbsp", "note": "small dry frying pan, stirring" }] },
+    { "kind": "wait", "duration": "4 to 5 minutes", "note": "until golden" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Flatbreads", "amount": "to serve", "note": "heated" },
+        { "name": "Fresh basil", "amount": "15g", "note": "leaves torn, scattered on top" },
+        { "name": "Extra-virgin olive oil", "amount": "a drizzle", "note": "to finish" }
+      ]
+    }
+  ]
+}

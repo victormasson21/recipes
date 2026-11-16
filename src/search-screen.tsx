@@ -81,11 +81,16 @@ export const SearchScreen = ({ recipes, session, activeRecipe }: SearchScreenPro
     event.preventDefault()
     commitDraft()
   }
-  const onKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
-    if (event.key === ",") {
-      event.preventDefault()
-      commitDraft()
+  const onChange = (value: string) => {
+    const [first, ...rest] = value.split(",")
+    if (rest.length === 0) {
+      setDraft(value)
+      return
     }
+    setTerms(addTerm(terms, first ?? ""))
+    setDraft(rest.join(","))
+  }
+  const onKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
     if (event.key === "Backspace" && draft === "") {
       setTerms(terms.slice(0, -1))
     }
@@ -126,7 +131,7 @@ export const SearchScreen = ({ recipes, session, activeRecipe }: SearchScreenPro
             autoComplete="off"
             placeholder="Add an ingredient"
             value={draft}
-            onChange={(event) => setDraft(event.target.value)}
+            onChange={(event) => onChange(event.target.value)}
             onKeyDown={onKeyDown}
           />
         </div>
