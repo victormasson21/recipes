@@ -1,0 +1,76 @@
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: none;
+  padding: 4px 20px 14px;
+}
+
+.recipeName {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--muted);
+}
+
+.count {
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.content {
+  padding: 0 20px 16px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 18px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 48px;
+  border-bottom: 1px solid var(--ground);
+  cursor: pointer;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.checkbox {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  accent-color: var(--ink);
+  cursor: pointer;
+}
+
+.name {
+  flex: 1;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.nameTicked {
+  composes: name;
+  color: var(--muted);
+  text-decoration: line-through;
+}
+
+.amount {
+  flex: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--muted);
+}
+
+.copy {
+  flex: 1.4;
+}
