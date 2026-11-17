@@ -59,7 +59,7 @@ export const App = () => {
     return <NotFound />
   }
   if (route.screen === "recipe") {
-    return <RecipeScreen recipe={recipe} />
+    return <RecipeScreen recipe={recipe} recipes={recipes} />
   }
   return <ActiveRecipe recipe={recipe} screen={route.screen} store={store} />
 }

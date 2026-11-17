@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest"
 import type { Recipe } from "./recipe"
-import { addTerm, search } from "./search"
+import { addTerm, adjacentId, search } from "./search"
 
 const recipe = (id: string, tag: Recipe["tag"], ...names: string[]): Recipe => ({
   id,
@@ -50,5 +50,23 @@ describe("search", () => {
 
   it("returns nothing when no recipe matches", () => {
     expect(search(all, ["saffron"], "all")).toEqual([])
+  })
+})
+
+describe("adjacentId", () => {
+  const results = search(all, [], "all")
+
+  it("steps forward and back through the results", () => {
+    expect(adjacentId(results, stew.id, 1)).toBe(beans.id)
+    expect(adjacentId(results, beans.id, -1)).toBe(stew.id)
+  })
+
+  it("stops at either end", () => {
+    expect(adjacentId(results, stew.id, -1)).toBeUndefined()
+    expect(adjacentId(results, noodles.id, 1)).toBeUndefined()
+  })
+
+  it("is undefined for a recipe outside the results", () => {
+    expect(adjacentId(results, "saffron", 1)).toBeUndefined()
   })
 })

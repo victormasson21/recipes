@@ -20,6 +20,11 @@ const matchedTerms = (recipe: Recipe, terms: readonly string[]): readonly string
 const byRank = (a: Result, b: Result): number =>
   b.matched.length - a.matched.length || a.recipe.title.localeCompare(b.recipe.title)
 
+export const adjacentId = (results: readonly Result[], id: string, step: 1 | -1): string | undefined => {
+  const index = results.findIndex((result) => result.recipe.id === id)
+  return index === -1 ? undefined : results[index + step]?.recipe.id
+}
+
 export const search = (
   recipes: readonly Recipe[],
   terms: readonly string[],

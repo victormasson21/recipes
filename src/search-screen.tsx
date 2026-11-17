@@ -1,4 +1,4 @@
-import { useState, type KeyboardEvent, type SubmitEvent } from "react"
+import { useEffect, useState, type KeyboardEvent, type SubmitEvent } from "react"
 import { ChevronRight, Cross, MagnifyingGlass, Motif } from "./icons"
 import { pickMotif } from "./motif"
 import type { Recipe, Tag as TagKind } from "./recipe"
@@ -6,6 +6,7 @@ import { TAG_LABELS, TAGS } from "./recipe"
 import { hrefTo } from "./routes"
 import { addTerm, search, type Filter, type Result } from "./search"
 import styles from "./search-screen.module.css"
+import { readSearchState, writeSearchState } from "./search-state"
 import { currentStep, hoursLeft, type Session } from "./session"
 import { Tag } from "./tag"
 import ui from "./ui.module.css"
@@ -69,11 +70,15 @@ type SearchScreenProps = {
 }
 
 export const SearchScreen = ({ recipes, session, activeRecipe }: SearchScreenProps) => {
-  const [terms, setTerms] = useState<readonly string[]>([])
+  const [terms, setTerms] = useState(() => readSearchState().terms)
   const [draft, setDraft] = useState("")
-  const [filter, setFilter] = useState<Filter>("all")
+  const [filter, setFilter] = useState<Filter>(() => readSearchState().filter)
   const [motif] = useState(pickMotif)
   const results = search(recipes, terms, filter)
+
+  useEffect(() => {
+    writeSearchState({ terms, filter })
+  }, [terms, filter])
 
   const commitDraft = () => {
     setTerms(addTerm(terms, draft))
