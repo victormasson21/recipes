@@ -1,0 +1,97 @@
+{
+  "id": "persian-noodle-soup",
+  "title": "Persian noodle soup",
+  "tag": "to-try",
+  "source": {
+    "url": "https://annajones.co.uk/recipes/persian-noodle-soup",
+    "site": "Anna Jones",
+    "title": "Persian noodle soup",
+    "image": "https://annajones.imgix.net/recipes/persian-noodle-soup/Vat-of-soup-for-web-1_2026-01-20-204739_qoly.png"
+  },
+  "ingredients": [
+    { "name": "Olive oil", "amount": "3 tbsp, plus extra to drizzle" },
+    { "name": "Onions", "amount": "2" },
+    { "name": "Ground turmeric", "amount": "1 tsp" },
+    { "name": "Ground cumin", "amount": "1 tsp" },
+    { "name": "Garlic cloves", "amount": "3" },
+    { "name": "Green chillies", "amount": "2" },
+    { "name": "Cannellini beans", "amount": "1 × 400g tin" },
+    { "name": "Green or Puy lentils", "amount": "1 × 400g tin" },
+    { "name": "Vegetable stock", "amount": "1.25 litres" },
+    { "name": "Spinach", "amount": "200g" },
+    { "name": "Linguine or spaghetti", "amount": "80g" },
+    { "name": "Parsley", "amount": "a small bunch" },
+    { "name": "Coriander", "amount": "a small bunch" },
+    { "name": "Dill", "amount": "a small bunch" },
+    { "name": "Unwaxed lemon", "amount": "1" },
+    { "name": "Toasted pine nuts", "amount": "50g" },
+    { "name": "Extra virgin olive oil", "amount": "3 tbsp, for the topping" }
+  ],
+  "instructions": [
+    "Thinly slice the onions and garlic, finely chop the chillies, drain and rinse the beans and lentils, wash and chop the spinach, break the pasta into 3cm sticks and chop the herbs.",
+    "Heat the oil in a large pot over a medium heat. Cook the onions for about 10 minutes, until very soft, golden and fragrant. Add the spices, garlic and one chilli and cook for 2 to 3 minutes, until fragrant but not browning.",
+    "Add the beans, lentils, 1 litre of the stock and a good pinch of salt. Bring to the boil, reduce to a simmer and cook for 15 minutes.",
+    "Add the rest of the stock, the spinach and the pasta and simmer for 8 to 10 minutes, until the pasta is just al dente. Set portions aside before this step if not eating the whole pot now.",
+    "For the topping, mix the pine nuts, the other chilli, the lemon zest and the extra virgin olive oil.",
+    "Add the herbs to the soup, simmer for a minute, taste and adjust, then stir in the lemon juice. Serve topped with the pine nut mix and more herbs."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Olive oil", "amount": "3 tbsp", "note": "large pot, medium heat" },
+        { "name": "Onions", "amount": "2", "note": "thinly sliced" }
+      ]
+    },
+    { "kind": "wait", "duration": "10 minutes", "note": "until very soft, golden and fragrant" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Ground turmeric", "amount": "1 tsp" },
+        { "name": "Ground cumin", "amount": "1 tsp" },
+        { "name": "Garlic cloves", "amount": "3", "note": "peeled and thinly sliced" },
+        { "name": "Green chilli", "amount": "1", "note": "finely chopped" }
+      ]
+    },
+    { "kind": "wait", "duration": "2 to 3 minutes", "note": "until the garlic is fragrant but not browning" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Cannellini beans", "amount": "1 tin", "note": "drained and rinsed" },
+        { "name": "Green or Puy lentils", "amount": "1 tin", "note": "drained and rinsed" },
+        { "name": "Vegetable stock", "amount": "1 litre" },
+        { "name": "Salt", "amount": "a good pinch", "note": "bring to the boil, then simmer" }
+      ]
+    },
+    { "kind": "wait", "duration": "15 minutes", "note": "until everything has come together" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Vegetable stock", "amount": "250ml", "note": "the rest" },
+        { "name": "Spinach", "amount": "200g", "note": "washed and chopped" },
+        { "name": "Linguine", "amount": "80g", "note": "broken into 3cm sticks" }
+      ]
+    },
+    { "kind": "wait", "duration": "8 to 10 minutes", "note": "until the pasta is just al dente; mix the topping meanwhile" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Toasted pine nuts", "amount": "50g", "note": "in a small bowl" },
+        { "name": "Green chilli", "amount": "1", "note": "finely chopped" },
+        { "name": "Lemon zest", "amount": "1 lemon" },
+        { "name": "Extra virgin olive oil", "amount": "3 tbsp", "note": "mix" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Parsley", "amount": "a small bunch", "note": "chopped, into the soup" },
+        { "name": "Coriander", "amount": "a small bunch", "note": "chopped" },
+        { "name": "Dill", "amount": "a small bunch", "note": "chopped" }
+      ]
+    },
+    { "kind": "wait", "duration": "1 minute", "note": "simmering; taste and adjust the seasoning" },
+    { "kind": "add", "items": [{ "name": "Lemon juice", "amount": "1 lemon", "note": "stirred in" }] },
+    { "kind": "add", "items": [{ "name": "Pine nut topping", "amount": "a spoonful per bowl", "note": "with more herbs, to serve" }] }
+  ]
+}

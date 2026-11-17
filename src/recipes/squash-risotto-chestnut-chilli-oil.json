@@ -1,0 +1,98 @@
+{
+  "id": "squash-risotto-chestnut-chilli-oil",
+  "title": "Squash risotto with chestnut chilli oil",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2022/oct/24/squash-risotto-chestnut-chilli-oil-recipe-thomasina-miers",
+    "site": "The Guardian",
+    "title": "Thomasina Miers' recipe for squash risotto with chestnut chilli oil",
+    "image": "https://i.guim.co.uk/img/media/513e45237902ac8b643950f1d2e85680bd936346/183_2689_5594_3356/master/5594.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5d49196aede6511ab9826af075a372aa"
+  },
+  "ingredients": [
+    { "name": "Squash or pumpkin", "amount": "1 medium (800g)" },
+    { "name": "Olive oil", "amount": "5 to 6 tbsp" },
+    { "name": "Thyme", "amount": "a handful of sprigs" },
+    { "name": "Salt", "amount": "to taste" },
+    { "name": "Black pepper", "amount": "to taste" },
+    { "name": "Large white onion", "amount": "1" },
+    { "name": "Pearl barley", "amount": "350g" },
+    { "name": "White wine", "amount": "200ml" },
+    { "name": "Vegetable stock", "amount": "1 litre" },
+    { "name": "Parmesan", "amount": "60g, or grana padano" },
+    { "name": "Butter", "amount": "a knob" },
+    { "name": "Parsley", "amount": "to serve, chopped, optional" },
+    { "name": "Guajillo chillies", "amount": "3, or nora peppers" },
+    { "name": "Sunflower oil", "amount": "300ml" },
+    { "name": "Large garlic cloves", "amount": "3" },
+    { "name": "Cooked chestnuts", "amount": "150g" },
+    { "name": "Chilli flakes", "amount": "1 tsp, optional" },
+    { "name": "Lemon", "amount": "½" }
+  ],
+  "instructions": [
+    "Heat the oven to 200C/180C fan/gas 6. Toss the thickly sliced squash, skin on, with 2 tbsp olive oil, a third of the thyme leaves, salt and pepper. Roast for 30 minutes, until soft and golden at the edges.",
+    "For the chilli oil, deseed the chillies and snip into rings. Warm the sunflower oil in a small pan, turn to the lowest heat and add the chillies, garlic, half the remaining thyme and half the chestnuts. Cook for 5 to 10 minutes, until the garlic is pale golden. Blitz roughly in the pan with a stick blender, add the rest of the chestnuts and the chilli flakes, warm through, then take off the heat and stir in the lemon zest and juice.",
+    "Warm 3 tbsp olive oil in a wide pan, add the onion, season well, add the last of the thyme and sweat on medium-low for 7 to 8 minutes, until soft.",
+    "Turn up to medium, add the barley and stir until glossy. Add the wine and stir until absorbed, then add the stock a ladle at a time, stirring until absorbed before the next.",
+    "After 10 minutes, scrape the squash from its skin and stir it in. Keep adding stock for about 20 minutes more, until the barley is tender with some bite.",
+    "Stir in the cheese and butter, season, and serve with the chilli oil on top and some parsley."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Squash", "amount": "800g", "note": "thickly sliced, skin on, on a baking tray; oven at 200C/180C fan" },
+        { "name": "Olive oil", "amount": "2 tbsp" },
+        { "name": "Thyme leaves", "amount": "a third", "note": "season generously" }
+      ]
+    },
+    { "kind": "wait", "duration": "30 minutes", "note": "roasting, until soft and golden at the edges; make the chilli oil meanwhile" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Sunflower oil", "amount": "300ml", "note": "small pan, warm then lowest heat" },
+        { "name": "Guajillo chillies", "amount": "3", "note": "deseeded, snipped into rings" },
+        { "name": "Garlic cloves", "amount": "3 large", "note": "finely chopped" },
+        { "name": "Thyme leaves", "amount": "half of what is left" },
+        { "name": "Cooked chestnuts", "amount": "75g", "note": "roughly chopped" }
+      ]
+    },
+    { "kind": "wait", "duration": "5 to 10 minutes", "note": "until the garlic is pale golden; blitz roughly in the pan with a stick blender" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Cooked chestnuts", "amount": "75g", "note": "the rest" },
+        { "name": "Chilli flakes", "amount": "1 tsp", "note": "warm through, turn off the heat" },
+        { "name": "Lemon zest and juice", "amount": "½ lemon", "note": "stir in, set aside" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Olive oil", "amount": "3 tbsp", "note": "wide pan, medium-low heat" },
+        { "name": "White onion", "amount": "1 large", "note": "finely diced, season generously" },
+        { "name": "Thyme leaves", "amount": "the last of them" }
+      ]
+    },
+    { "kind": "wait", "duration": "7 to 8 minutes", "note": "sweating, until soft; then heat to medium" },
+    { "kind": "add", "items": [{ "name": "Pearl barley", "amount": "350g", "note": "stir until it glistens" }] },
+    { "kind": "add", "items": [{ "name": "White wine", "amount": "200ml", "note": "stir until absorbed" }] },
+    { "kind": "add", "items": [{ "name": "Vegetable stock", "amount": "1 litre", "note": "a ladle at a time, stirring until absorbed before the next" }] },
+    { "kind": "wait", "duration": "10 minutes", "note": "adding stock" },
+    { "kind": "add", "items": [{ "name": "Roast squash", "amount": "all of it", "note": "scraped from its skin" }] },
+    { "kind": "wait", "duration": "20 minutes", "note": "adding stock, until the barley is tender with some bite" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Parmesan", "amount": "60g", "note": "grated" },
+        { "name": "Butter", "amount": "a knob", "note": "stir, season to taste" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Chestnut chilli oil", "amount": "a spoonful per bowl" },
+        { "name": "Parsley", "amount": "a little", "note": "to serve" }
+      ]
+    }
+  ]
+}

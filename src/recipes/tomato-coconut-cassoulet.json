@@ -1,0 +1,67 @@
+{
+  "id": "tomato-coconut-cassoulet",
+  "title": "Tomato and coconut cassoulet",
+  "tag": "to-try",
+  "source": {
+    "url": "https://annajones.co.uk/recipes/tomato-and-coconut-cassoulet",
+    "site": "Anna Jones",
+    "title": "Tomato and Coconut Cassoulet",
+    "image": "https://annajones.imgix.net/recipes/tomato-and-coconut-cassoulet-2/Tomato_coconut_cassoulet.jpg"
+  },
+  "ingredients": [
+    { "name": "Olive oil", "amount": "a slosh, plus more to drizzle" },
+    { "name": "Leek", "amount": "1" },
+    { "name": "Garlic clove", "amount": "1" },
+    { "name": "Red chilli", "amount": "1" },
+    { "name": "Fresh ginger", "amount": "1cm thick piece, the size of a 50p" },
+    { "name": "Sea salt", "amount": "to taste" },
+    { "name": "Black pepper", "amount": "to taste" },
+    { "name": "Chopped tomatoes", "amount": "1 × 400g tin" },
+    { "name": "Coconut milk", "amount": "4 tbsp" },
+    { "name": "Haricot beans", "amount": "1 × 400g jar or tin" },
+    { "name": "Vine or cherry tomatoes", "amount": "500g" },
+    { "name": "Fresh basil", "amount": "a bunch" },
+    { "name": "Sourdough bread", "amount": "4 slices" }
+  ],
+  "instructions": [
+    "Heat the oven to 200C/180C fan/gas 6. Wash, trim and roughly slice the leek, finely chop the garlic and the deseeded chilli, roughly chop the ginger, drain the beans and halve the fresh tomatoes.",
+    "Heat an ovenproof pan on a medium heat with a slosh of oil. Add the leek, garlic, chilli, ginger, a pinch of salt and some pepper, turn the heat down and cook for 10 minutes, until the leeks are soft and sweet.",
+    "Add the tinned tomatoes, coconut milk and beans and simmer for a couple of minutes. Take off the heat and check the seasoning.",
+    "Scatter over the fresh tomatoes, then the basil, then tear the bread into chunks and push them into the gaps so the top is a covering of tomatoes and bread.",
+    "Drizzle with olive oil and bake for 30 minutes, until the tomatoes have shrunk and sweetened and the bread is crisp and golden. Rest a few minutes and serve with a lemony green salad."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Olive oil", "amount": "a slosh", "note": "ovenproof pan, medium heat; oven at 200C/180C fan" },
+        { "name": "Leek", "amount": "1", "note": "washed, trimmed, roughly sliced" },
+        { "name": "Garlic clove", "amount": "1", "note": "finely chopped" },
+        { "name": "Red chilli", "amount": "1", "note": "deseeded and finely chopped" },
+        { "name": "Fresh ginger", "amount": "1cm piece", "note": "peeled and roughly chopped" },
+        { "name": "Salt and pepper", "amount": "a pinch", "note": "turn the heat down" }
+      ]
+    },
+    { "kind": "wait", "duration": "10 minutes", "note": "until the leeks are soft and sweet" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Chopped tomatoes", "amount": "1 tin" },
+        { "name": "Coconut milk", "amount": "4 tbsp" },
+        { "name": "Haricot beans", "amount": "1 jar or tin", "note": "drained" }
+      ]
+    },
+    { "kind": "wait", "duration": "2 minutes", "note": "simmering, then off the heat; check the seasoning" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Vine or cherry tomatoes", "amount": "500g", "note": "halved, scattered on top" },
+        { "name": "Fresh basil", "amount": "a bunch" },
+        { "name": "Sourdough bread", "amount": "4 slices", "note": "torn into chunks, pushed into the gaps" },
+        { "name": "Olive oil", "amount": "a drizzle", "note": "into the oven" }
+      ]
+    },
+    { "kind": "wait", "duration": "30 minutes", "note": "until the tomatoes have shrunk and the bread is crisp and golden" },
+    { "kind": "wait", "duration": "A few minutes", "note": "resting, then serve with a lemony green salad" }
+  ]
+}

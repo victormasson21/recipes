@@ -1,0 +1,74 @@
+{
+  "id": "coconut-red-lentil-dahl",
+  "title": "Coconut red lentil dahl",
+  "tag": "staples",
+  "source": {
+    "url": "https://runningonrealfood.com/coconut-red-lentil-dahl/",
+    "site": "Running on Real Food",
+    "title": "Coconut Red Lentil Dahl (Vegan, One-Pot)",
+    "image": "https://runningonrealfood.com/wp-content/uploads/2020/07/coconut-red-lentil-dahl-recipe.jpg"
+  },
+  "ingredients": [
+    { "name": "Coconut oil", "amount": "1 tbsp, or olive oil" },
+    { "name": "Onions", "amount": "2" },
+    { "name": "Garlic cloves", "amount": "4" },
+    { "name": "Fresh ginger", "amount": "1 tbsp minced" },
+    { "name": "Mild curry powder", "amount": "1 tbsp" },
+    { "name": "Ground turmeric", "amount": "1 tsp" },
+    { "name": "Ground coriander", "amount": "½ tsp" },
+    { "name": "Black pepper", "amount": "½ tsp" },
+    { "name": "Sea salt", "amount": "1 tsp" },
+    { "name": "Red pepper flakes", "amount": "½ tsp" },
+    { "name": "Red lentils", "amount": "375g" },
+    { "name": "Full-fat coconut milk", "amount": "1 × 400ml tin" },
+    { "name": "Water or vegetable stock", "amount": "750ml" },
+    { "name": "Fresh coriander", "amount": "to serve" },
+    { "name": "Basmati rice", "amount": "to serve, optional" }
+  ],
+  "instructions": [
+    "Dice the onions, mince the garlic and ginger.",
+    "Cook the onions, ginger and garlic in the oil in a large pot over a medium heat for 5 to 10 minutes, stirring often, until soft.",
+    "Add the spices, salt and pepper and cook for 1 to 2 minutes, stirring.",
+    "Add the coconut milk, lentils and water or stock. Bring to a gentle simmer and cook uncovered for 25 to 30 minutes, until the lentils are tender and the dahl has thickened.",
+    "Serve topped with coriander, over basmati rice or on its own."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Coconut oil", "amount": "1 tbsp", "note": "large pot, medium heat" },
+        { "name": "Onions", "amount": "2", "note": "diced" },
+        { "name": "Garlic cloves", "amount": "4", "note": "minced" },
+        { "name": "Fresh ginger", "amount": "1 tbsp", "note": "peeled and minced" }
+      ]
+    },
+    { "kind": "wait", "duration": "5 to 10 minutes", "note": "stirring often, until soft" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Mild curry powder", "amount": "1 tbsp" },
+        { "name": "Ground turmeric", "amount": "1 tsp" },
+        { "name": "Ground coriander", "amount": "½ tsp" },
+        { "name": "Black pepper", "amount": "½ tsp" },
+        { "name": "Sea salt", "amount": "1 tsp" },
+        { "name": "Red pepper flakes", "amount": "½ tsp" }
+      ]
+    },
+    { "kind": "wait", "duration": "1 to 2 minutes", "note": "stirring" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Coconut milk", "amount": "1 × 400ml tin" },
+        { "name": "Red lentils", "amount": "375g" },
+        { "name": "Water or vegetable stock", "amount": "750ml", "note": "bring to a gentle simmer, uncovered" }
+      ]
+    },
+    { "kind": "wait", "duration": "25 to 30 minutes", "note": "until the lentils are tender and the dahl has thickened" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Fresh coriander", "amount": "a handful", "note": "to serve, over basmati rice" }
+      ]
+    }
+  ]
+}

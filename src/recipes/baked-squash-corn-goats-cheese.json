@@ -1,0 +1,81 @@
+{
+  "id": "baked-squash-corn-goats-cheese",
+  "title": "Baked squash, corn and goat's cheese",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/lifeandstyle/2010/aug/28/jane-baxter-squash-corn-goats-cheese-recipe",
+    "site": "The Guardian",
+    "title": "Jane Baxter's baked squash, corn and goat's cheese recipe",
+    "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2010/8/18/1282132940081/Baked-squash-recipe-006.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=eab90238b38c16a53d6b2a3f6fdb994e"
+  },
+  "ingredients": [
+    { "name": "Squash", "amount": "1 (1kg), butternut or red onion" },
+    { "name": "Olive oil", "amount": "3 tbsp" },
+    { "name": "Corn on the cob", "amount": "3" },
+    { "name": "Garlic cloves", "amount": "4" },
+    { "name": "Red chillies", "amount": "2" },
+    { "name": "Goat's cheese", "amount": "200g" },
+    { "name": "Lime", "amount": "1" },
+    { "name": "Coriander", "amount": "a handful, plus 1 tbsp for the dressing" },
+    { "name": "Pumpkin seeds", "amount": "80g" },
+    { "name": "Tomatoes", "amount": "2, green if possible" },
+    { "name": "Green lettuce leaves", "amount": "2, romaine or cos" },
+    { "name": "Green chillies", "amount": "2" },
+    { "name": "Salt", "amount": "to taste" },
+    { "name": "Black pepper", "amount": "to taste" },
+    { "name": "Corn tortillas", "amount": "to serve, warmed" }
+  ],
+  "instructions": [
+    "Heat the oven to 190C/170C fan/gas 5. Peel and deseed the squash, cut into 1 to 2cm chunks, toss with 1 tbsp oil and seasoning on a tray and roast for about 30 minutes, until browning and just cooked.",
+    "Meanwhile, boil the corn for about 10 minutes, drain, refresh, and cut the kernels from the cobs.",
+    "Toss the roast squash with 2 finely chopped garlic cloves, the finely chopped red chillies and the corn. Move to an ovenproof serving dish and return to the oven for 5 minutes.",
+    "For the dressing, dry-fry the pumpkin seeds over a medium heat for 5 minutes, until toasted and popping. When cool, blend with the crushed garlic, tomatoes, lettuce, 1 tbsp coriander, green chillies, 2 tbsp oil and seasoning, adding a little water to a pouring consistency.",
+    "Fold the crumbled goat's cheese into the squash and return to the oven for about 10 minutes, until hot.",
+    "Squeeze over the lime, drizzle with the dressing, season and scatter with coriander. Serve with warm tortillas."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Squash", "amount": "1kg", "note": "peeled, deseeded, 1 to 2cm chunks, on an oven tray; oven at 190C/170C fan" },
+        { "name": "Olive oil", "amount": "1 tbsp", "note": "toss and season" }
+      ]
+    },
+    { "kind": "wait", "duration": "30 minutes", "note": "roasting, until browning and just cooked; boil the corn meanwhile" },
+    { "kind": "add", "items": [{ "name": "Corn on the cob", "amount": "3", "note": "into boiling water" }] },
+    { "kind": "wait", "duration": "10 minutes", "note": "then drain, refresh, cool and cut off the kernels" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Garlic cloves", "amount": "2", "note": "very finely chopped, tossed through the squash" },
+        { "name": "Red chillies", "amount": "2", "note": "very finely chopped" },
+        { "name": "Corn kernels", "amount": "from 3 cobs", "note": "move to an ovenproof serving dish, back in the oven" }
+      ]
+    },
+    { "kind": "wait", "duration": "5 minutes", "note": "in the oven; make the dressing meanwhile" },
+    { "kind": "add", "items": [{ "name": "Pumpkin seeds", "amount": "80g", "note": "dry pan, medium heat" }] },
+    { "kind": "wait", "duration": "5 minutes", "note": "until toasted and popping, then cool" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Toasted pumpkin seeds", "amount": "80g", "note": "in a blender" },
+        { "name": "Garlic cloves", "amount": "2", "note": "crushed" },
+        { "name": "Tomatoes", "amount": "2" },
+        { "name": "Lettuce leaves", "amount": "2", "note": "chopped" },
+        { "name": "Coriander", "amount": "1 tbsp", "note": "chopped" },
+        { "name": "Green chillies", "amount": "2", "note": "roughly chopped" },
+        { "name": "Olive oil", "amount": "2 tbsp", "note": "season, blend, loosen with water to a pouring consistency" }
+      ]
+    },
+    { "kind": "add", "items": [{ "name": "Goat's cheese", "amount": "200g", "note": "crumbled, folded into the squash, back in the oven" }] },
+    { "kind": "wait", "duration": "10 minutes", "note": "until the cheese is hot" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Lime juice", "amount": "1 lime", "note": "squeezed over" },
+        { "name": "Pumpkin seed dressing", "amount": "a drizzle", "note": "season to taste" },
+        { "name": "Coriander", "amount": "a handful", "note": "to serve, with warm corn tortillas" }
+      ]
+    }
+  ]
+}

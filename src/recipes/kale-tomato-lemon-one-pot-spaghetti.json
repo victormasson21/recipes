@@ -1,0 +1,43 @@
+{
+  "id": "kale-tomato-lemon-one-pot-spaghetti",
+  "title": "Kale, tomato and lemon one-pot spaghetti",
+  "tag": "to-try",
+  "source": {
+    "url": "https://theflexitarian.co.uk/recipe-items/kale-tomato-and-lemon-magic-one-pot-spaghetti-flexitarian-by-anna-jones/",
+    "site": "The Flexitarian",
+    "title": "Kale, Tomato and Lemon Magic One-Pot Spaghetti by Anna Jones",
+    "image": "https://theflexitarian.co.uk/wp-content/uploads/2015/07/Kale-Tomato-and-Lemon-Magic-One-Pot-Spaghetti-flexitarian-by-Anna-Jones.jpg"
+  },
+  "ingredients": [
+    { "name": "Spaghetti or linguine", "amount": "400g" },
+    { "name": "Cherry tomatoes", "amount": "400g" },
+    { "name": "Unwaxed lemons", "amount": "2 large, for zest" },
+    { "name": "Olive oil", "amount": "100ml" },
+    { "name": "Sea salt", "amount": "2 heaped tsp" },
+    { "name": "Kale or spinach", "amount": "400g bag" },
+    { "name": "Parmesan", "amount": "to serve, optional, or a vegan equivalent" }
+  ],
+  "instructions": [
+    "Boil a kettle. Halve the tomatoes, zest the lemons, and strip the tough stalks from the kale and tear the leaves.",
+    "Put the pasta in a large shallow pan with a lid, add the tomatoes, lemon zest, oil and salt. Pour in 1 litre of boiling water, cover and bring to the boil.",
+    "As soon as it boils, take the lid off and simmer on a high heat for 6 minutes, turning the pasta with tongs every 30 seconds or so.",
+    "Add the kale and cook for 2 more minutes, until almost all the water has evaporated. Take off the heat, divide between four bowls and top with a little Parmesan."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Spaghetti", "amount": "400g", "note": "large shallow pan with a lid" },
+        { "name": "Cherry tomatoes", "amount": "400g", "note": "halved" },
+        { "name": "Lemon zest", "amount": "2 large lemons" },
+        { "name": "Olive oil", "amount": "100ml" },
+        { "name": "Sea salt", "amount": "2 heaped tsp" },
+        { "name": "Boiling water", "amount": "1 litre", "note": "lid on, bring to the boil, then lid off" }
+      ]
+    },
+    { "kind": "wait", "duration": "6 minutes", "note": "simmering on a high heat, turning the pasta with tongs every 30 seconds" },
+    { "kind": "add", "items": [{ "name": "Kale", "amount": "400g", "note": "stalks removed, leaves torn" }] },
+    { "kind": "wait", "duration": "2 minutes", "note": "until almost all the water has evaporated, then off the heat" },
+    { "kind": "add", "items": [{ "name": "Parmesan", "amount": "a little", "note": "over four bowls, to serve" }] }
+  ]
+}

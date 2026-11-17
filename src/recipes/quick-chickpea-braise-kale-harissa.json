@@ -1,0 +1,74 @@
+{
+  "id": "quick-chickpea-braise-kale-harissa",
+  "title": "Quick chickpea braise with kale and harissa",
+  "tag": "to-try",
+  "source": {
+    "url": "https://annajones.co.uk/recipes/quick-chickpea-braise-with-kale-and-harissa",
+    "site": "Anna Jones",
+    "title": "Quick chickpea braise with kale and harissa",
+    "image": "https://annajones.imgix.net/recipes/quick-chickpea-braise-with-kale-harissa-2/chickpeas_final.jpg"
+  },
+  "ingredients": [
+    { "name": "Olive oil", "amount": "a little" },
+    { "name": "Red onion", "amount": "1" },
+    { "name": "Garlic cloves", "amount": "2" },
+    { "name": "Kale", "amount": "200g" },
+    { "name": "Ground turmeric", "amount": "1 heaped tsp" },
+    { "name": "Preserved lemon", "amount": "1, or the zest of an unwaxed lemon" },
+    { "name": "Chopped tomatoes", "amount": "1 × 400g tin" },
+    { "name": "Chickpeas", "amount": "2 × 400g tins, or a 660g jar" },
+    { "name": "Flat-leaf parsley", "amount": "a bunch" },
+    { "name": "Vegan plain yoghurt", "amount": "4 tbsp" },
+    { "name": "Harissa", "amount": "1 tbsp" },
+    { "name": "Tahini", "amount": "for drizzling" },
+    { "name": "Flatbreads", "amount": "4" }
+  ],
+  "instructions": [
+    "Thinly slice the onion and garlic. Roughly chop the kale leaves and shred the stems, keeping them separate. Halve the preserved lemon, discard the flesh and finely chop the peel. Roughly chop the parsley.",
+    "Put a little oil in a large frying pan, add the onion and cook over a medium heat for 5 minutes. Add the garlic, kale stems and turmeric and cook for a couple of minutes.",
+    "Add the preserved lemon peel, the tomatoes and the chickpeas with their liquid (plus 150ml water if using jarred chickpeas). Cook for about 10 minutes, until thickened and reduced.",
+    "Add the kale leaves and cook for a few minutes until wilted. Taste and season, then stir in most of the parsley.",
+    "Ripple the yoghurt and harissa together and serve with the braise, a drizzle of tahini, the rest of the parsley and warm flatbreads."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Olive oil", "amount": "a little", "note": "large frying pan, medium heat" },
+        { "name": "Red onion", "amount": "1", "note": "peeled and thinly sliced" }
+      ]
+    },
+    { "kind": "wait", "duration": "5 minutes" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Garlic cloves", "amount": "2", "note": "peeled and thinly sliced" },
+        { "name": "Kale stems", "amount": "from 200g", "note": "shredded; leaves go in later" },
+        { "name": "Ground turmeric", "amount": "1 heaped tsp" }
+      ]
+    },
+    { "kind": "wait", "duration": "2 minutes" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Preserved lemon peel", "amount": "1 lemon", "note": "flesh discarded, peel finely chopped" },
+        { "name": "Chopped tomatoes", "amount": "1 tin" },
+        { "name": "Chickpeas", "amount": "2 tins", "note": "with their liquid; add 150ml water if jarred" }
+      ]
+    },
+    { "kind": "wait", "duration": "10 minutes", "note": "until the tomatoes have thickened and reduced" },
+    { "kind": "add", "items": [{ "name": "Kale leaves", "amount": "the rest", "note": "roughly chopped" }] },
+    { "kind": "wait", "duration": "A few minutes", "note": "until wilted; taste and season" },
+    { "kind": "add", "items": [{ "name": "Flat-leaf parsley", "amount": "most of the bunch", "note": "roughly chopped, stirred in" }] },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Vegan yoghurt", "amount": "4 tbsp", "note": "rippled with the harissa in a bowl" },
+        { "name": "Harissa", "amount": "1 tbsp" },
+        { "name": "Tahini", "amount": "a drizzle" },
+        { "name": "Flat-leaf parsley", "amount": "the rest" },
+        { "name": "Flatbreads", "amount": "4", "note": "warmed, to serve" }
+      ]
+    }
+  ]
+}
