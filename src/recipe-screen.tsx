@@ -41,7 +41,7 @@ export const RecipeScreen = ({ recipe }: { readonly recipe: Recipe }) => (
           {recipe.ingredients.map(({ name, amount }) => (
             <li key={name} className={styles.ingredient}>
               <span className={styles.name}>{name}</span>
-              <span className={styles.amount}>{amount}</span>
+              <span className={ui.amount}>{amount}</span>
             </li>
           ))}
         </ul>

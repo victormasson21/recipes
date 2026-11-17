@@ -1,5 +1,5 @@
 import { useState, type KeyboardEvent, type SubmitEvent } from "react"
-import { ChevronRight, Cross, MagnifyingGlass } from "./icons"
+import { ChevronRight, Cross, MagnifyingGlass, Motif } from "./icons"
 import type { Recipe, Tag as TagKind } from "./recipe"
 import { TAG_LABELS, TAGS } from "./recipe"
 import { hrefTo } from "./routes"
@@ -26,7 +26,7 @@ const OnNowBanner = ({ session, recipe }: BannerProps) => {
   return (
     <a className={styles.banner} href={hrefTo({ screen: "cook", id: recipe.id })}>
       <span className={styles.bannerText}>
-        <span className={styles.overline}>On now</span>
+        <span className={ui.overline}>On now</span>
         <span className={styles.bannerTitle}>{recipe.title}</span>
         <span className={styles.bannerMeta}>
           Step {step} of {steps} · stays on for {plural(hours, "more hour")}
@@ -98,14 +98,17 @@ export const SearchScreen = ({ recipes, session, activeRecipe }: SearchScreenPro
 
   return (
     <main className={styles.screen}>
-      <h1 className={styles.title}>Recipes</h1>
+      <div className={styles.titleRow}>
+        <h1 className={styles.title}>Recipes</h1>
+        <Motif width={40} height={50} />
+      </div>
 
       {session !== undefined && activeRecipe !== undefined && (
         <OnNowBanner session={session} recipe={activeRecipe} />
       )}
 
       <form className={styles.search} onSubmit={onSubmit}>
-        <label className={ui.caption} htmlFor="ingredient-search">
+        <label className={styles.searchLabel} htmlFor="ingredient-search">
           Search by ingredient
         </label>
         <div className={styles.field}>

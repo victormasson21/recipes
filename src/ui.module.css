@@ -28,29 +28,50 @@
   overflow-y: auto;
 }
 
-.title {
+.serif {
   font-family: var(--serif);
   font-weight: 600;
-  font-size: 30px;
-  line-height: 35px;
-  letter-spacing: -0.4px;
+  font-variant-numeric: lining-nums;
+}
+
+.title {
+  composes: serif;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -0.2px;
 }
 
 .heading {
-  font-family: var(--serif);
+  composes: serif;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+.amount {
+  composes: serif;
+  font-style: italic;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: right;
+}
+
+.overline {
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 28px;
-  letter-spacing: -0.2px;
 }
 
 .tag {
   padding: 2px 10px;
   border-radius: 999px;
-  background: var(--ground);
-  font-size: 12px;
+  background: var(--staples-tint);
+  font-size: 10px;
   line-height: 16px;
   font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 .tagTry {
@@ -58,7 +79,7 @@
 }
 
 .card {
-  border-radius: 22px;
+  border-radius: 26px;
   background: var(--surface);
 }
 
@@ -80,8 +101,10 @@
   height: 50px;
   border: 2px solid var(--ink);
   border-radius: 999px;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .button:disabled {
@@ -101,16 +124,17 @@
   align-items: center;
   gap: 6px;
   min-height: 44px;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
 }
 
 .caption {
   font-size: 13px;
   line-height: 16px;
-  font-weight: 600;
   color: var(--muted);
 }
 

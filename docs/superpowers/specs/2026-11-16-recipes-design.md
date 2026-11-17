@@ -1,6 +1,6 @@
 # Recipes: design
 
-Personal recipe PWA at `recipes.vicm.dev`. Four screens: Search, Recipe, Shop, Cook. One maintainer, no backend, no accounts. Visual design: `docs/design/design-brief.md` and the reference HTML under `docs/design/screens/`; the HTML wins on exact values.
+Personal recipe PWA at `recipes.vicm.dev`. Four screens: Search, Recipe, Shop, Cook. One maintainer, no backend, no accounts. Visual design: `docs/design/design-brief.md`, restyled by `docs/design/transition-brief.md`, and the reference HTML under `docs/design/screens/`; the HTML wins on exact values.
 
 ## Intent
 

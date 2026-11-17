@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react"
 import styles from "./cook-screen.module.css"
-import { ArrowLeft } from "./icons"
+import { ArrowLeft, Motif } from "./icons"
 import type { Recipe } from "./recipe"
 import { hrefTo } from "./routes"
 import { currentStep, toggle, type Session } from "./session"
@@ -60,7 +60,10 @@ export const CookScreen = ({ recipe, session, update }: CookScreenProps) => {
       </div>
 
       <div className={styles.titleBlock}>
-        <h1 className={styles.title}>{recipe.title}</h1>
+        <div className={styles.titleRow}>
+          <h1 className={styles.title}>{recipe.title}</h1>
+          <Motif width={64} height={80} />
+        </div>
         <div className={styles.progress} aria-hidden="true">
           {recipe.steps.map((_, index) => (
             <div key={index} className={segmentClass(stepState(index, current, session.done))} />

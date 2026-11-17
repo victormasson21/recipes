@@ -2,7 +2,7 @@ import type { ReactNode } from "react"
 
 type IconProps = { readonly size?: number; readonly strokeWidth?: number; readonly children: ReactNode }
 
-const Icon = ({ size = 24, strokeWidth = 2, children }: IconProps) => (
+const Icon = ({ size = 24, strokeWidth = 1.75, children }: IconProps) => (
   <svg
     aria-hidden="true"
     width={size}
@@ -38,7 +38,7 @@ export const MagnifyingGlass = () => (
 )
 
 export const Cross = () => (
-  <Icon size={16} strokeWidth={2.5}>
+  <Icon size={16} strokeWidth={2}>
     <path d="M6 6l12 12M18 6L6 18" />
   </Icon>
 )
@@ -50,14 +50,14 @@ export const External = () => (
 )
 
 export const Copy = () => (
-  <Icon size={20}>
+  <Icon size={18}>
     <rect x="9" y="9" width="11" height="11" rx="2" />
     <path d="M5 15V6a2 2 0 0 1 2-2h9" />
   </Icon>
 )
 
 export const Tick = () => (
-  <Icon size={16} strokeWidth={2.5}>
+  <Icon size={16} strokeWidth={2}>
     <path d="M5 12.5l4.5 4.5L19 7.5" />
   </Icon>
 )
@@ -67,4 +67,11 @@ export const Timer = () => (
     <circle cx="12" cy="13" r="8" />
     <path d="M12 9v4l2.5 2M9.5 2.5h5" />
   </Icon>
+)
+
+export const Motif = ({ width, height }: { readonly width: number; readonly height: number }) => (
+  <svg aria-hidden="true" width={width} height={height} viewBox="0 0 64 80" style={{ flex: "none" }}>
+    <path d="M0 80V32a32 32 0 0 1 64 0v48z" fill="var(--terracotta)" />
+    <path d="M12 80a20 20 0 0 1 40 0z" fill="var(--accent)" />
+  </svg>
 )

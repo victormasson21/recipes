@@ -15,7 +15,6 @@
 .add,
 .wait {
   border: 2px solid transparent;
-  background: var(--surface);
 }
 
 .stepCurrent .add,
@@ -27,8 +26,9 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 14px 18px 16px;
-  border-radius: 22px;
+  padding: 14px 20px 16px;
+  border-radius: 26px;
+  background: var(--surface);
 }
 
 .addHeader {
@@ -40,11 +40,7 @@
 }
 
 .overline {
-  font-size: 11px;
-  line-height: 16px;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  font-weight: 700;
+  composes: overline from "./ui.module.css";
   color: var(--muted);
 }
 
@@ -70,7 +66,7 @@
 .itemName {
   font-size: 17px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .note {
@@ -80,20 +76,17 @@
 }
 
 .amount {
+  composes: amount from "./ui.module.css";
   flex: none;
-  text-align: right;
-  font-family: var(--serif);
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: 500;
+  font-size: 21px;
 }
 
 .wait {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 12px 18px;
-  border-radius: 30px;
+  padding: 18px 20px 14px;
+  border-radius: 48px 48px 18px 18px;
   background: var(--accent);
 }
 
@@ -105,11 +98,9 @@
 }
 
 .duration {
-  font-family: var(--serif);
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 600;
-  letter-spacing: -0.2px;
+  composes: serif from "./ui.module.css";
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .waitNote {
@@ -118,23 +109,26 @@
   font-weight: 500;
 }
 
-.next {
+.badge {
   flex: none;
-  padding: 2px 10px;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.next {
+  composes: badge;
+  padding: 2px 12px;
   border-radius: 999px;
   background: var(--ink);
-  color: var(--surface);
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 700;
+  color: var(--on-ink);
 }
 
 .done {
-  flex: none;
+  composes: badge;
   display: flex;
   align-items: center;
   gap: 4px;
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 700;
 }

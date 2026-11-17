@@ -5,41 +5,48 @@
 }
 
 .slash {
-  font-size: 15px;
+  font-size: 12px;
   color: var(--muted);
 }
 
 .titleBlock {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
   flex: none;
   padding: 4px 20px 16px;
 }
 
+.titleRow {
+  display: flex;
+  align-items: flex-end;
+  gap: 14px;
+}
+
 .title {
-  font-family: var(--serif);
-  font-weight: 600;
-  font-size: 27px;
-  line-height: 32px;
-  letter-spacing: -0.3px;
+  composes: serif from "./ui.module.css";
+  flex: 1;
+  min-width: 0;
+  font-size: 34px;
+  line-height: 34px;
+  letter-spacing: -0.2px;
 }
 
 .progress {
   display: flex;
-  gap: 5px;
+  gap: 6px;
 }
 
 .segment {
   flex: 1;
-  height: 6px;
-  border-radius: 999px;
+  height: 14px;
+  border-radius: 999px 999px 0 0;
   background: var(--line);
 }
 
 .segmentDone {
   composes: segment;
-  background: var(--accent);
+  background: var(--terracotta);
 }
 
 .segmentCurrent {
@@ -71,5 +78,5 @@
   gap: 14px;
   flex: none;
   scroll-margin-top: 8px;
-  padding: 18px;
+  padding: 20px;
 }

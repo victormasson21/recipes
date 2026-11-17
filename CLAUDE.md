@@ -1,6 +1,6 @@
 # Recipes
 
-Personal recipe PWA: search by ingredient, shop, cook. Vite, React, TypeScript, pnpm. Recipes are JSON files under `src/recipes/`; the 24-hour session lives in the browser's `localStorage`; there is no backend. Visual design: `docs/design/design-brief.md`, exact values in `docs/design/screens/*.html`. Spec and plan: `docs/superpowers/`.
+Personal recipe PWA: search by ingredient, shop, cook. Vite, React, TypeScript, pnpm. Recipes are JSON files under `src/recipes/`; the 24-hour session lives in the browser's `localStorage`; there is no backend. Visual design: `docs/design/design-brief.md` as restyled by `docs/design/transition-brief.md` (Bohemian), exact values in `docs/design/screens/*.html`. Spec and plan: `docs/superpowers/`.
 
 ## Git
 

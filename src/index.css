@@ -1,14 +1,17 @@
 :root {
   color-scheme: light;
-  --ground: #d8f0e8;
-  --surface: #ffffff;
-  --ink: #0f2e2a;
-  --muted: #3f5f58;
-  --accent: #ff8a3d;
-  --accent-tint: #ffd9bf;
-  --line: #b5ddd0;
-  --sans: "Figtree", system-ui, sans-serif;
-  --serif: "Fraunces Variable", Georgia, serif;
+  --ground: #efe4d2;
+  --surface: #fbf6ec;
+  --ink: #2b2622;
+  --muted: #6b5d52;
+  --accent: #dda24a;
+  --accent-tint: #f3d9ae;
+  --line: #dccdb4;
+  --on-ink: #fbf6ec;
+  --staples-tint: #d9dec9;
+  --terracotta: #c2714f;
+  --sans: "DM Sans", system-ui, sans-serif;
+  --serif: "Cormorant Garamond", Georgia, serif;
   --safe-bottom: env(safe-area-inset-bottom, 0px);
   --safe-top: env(safe-area-inset-top, 0px);
   font-family: var(--sans);

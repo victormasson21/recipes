@@ -13,10 +13,8 @@
 }
 
 .count {
+  composes: overline from "./ui.module.css";
   margin-top: 6px;
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 700;
 }
 
 .content {
@@ -26,7 +24,7 @@
 .list {
   display: flex;
   flex-direction: column;
-  padding: 4px 18px;
+  padding: 4px 20px;
 }
 
 .row {
@@ -65,12 +63,17 @@
 }
 
 .amount {
-  flex: none;
-  font-size: 14px;
-  line-height: 20px;
+  composes: amount from "./ui.module.css";
+  flex: 0 1 auto;
+  max-width: 50%;
+}
+
+.amountTicked {
+  composes: amount;
   color: var(--muted);
 }
 
 .copy {
-  flex: 1.4;
+  flex: 1.5;
+  letter-spacing: 1.2px;
 }

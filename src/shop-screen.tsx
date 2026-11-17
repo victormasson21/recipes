@@ -80,7 +80,7 @@ export const ShopScreen = ({ recipe, session, update }: ShopScreenProps) => {
                   onChange={() => update({ ...session, ticked: toggle(session.ticked, index) })}
                 />
                 <span className={ticked ? styles.nameTicked : styles.name}>{name}</span>
-                <span className={styles.amount}>{amount}</span>
+                <span className={ticked ? styles.amountTicked : styles.amount}>{amount}</span>
               </label>
             )
           })}

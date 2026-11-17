@@ -13,8 +13,8 @@ export default defineConfig({
         short_name: "Recipes",
         description: "Search, shop, cook.",
         display: "standalone",
-        theme_color: "#D8F0E8",
-        background_color: "#D8F0E8",
+        theme_color: "#EFE4D2",
+        background_color: "#EFE4D2",
         icons: [
           { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png", purpose: "any" },
           { src: "/icons/icon-512.png", sizes: "512x512", type: "image/png", purpose: "any" },
