@@ -1,0 +1,76 @@
+{
+  "id": "zaatar-roast-vegetables-whipped-feta",
+  "title": "Za'atar roast vegetables with whipped feta",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2025/oct/11/meera-sodha-recipe-zaatar-roast-vegetables-whipped-feta",
+    "site": "The Guardian",
+    "title": "Meera Sodha's recipe for za'atar roast vegetables with whipped feta",
+    "image": "https://i.guim.co.uk/img/media/b5209f78ed95c32520f1ad2ad563aa667c26eb03/283_1548_3205_2562/master/3205.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5cfc92af9dd63af8afb611b5100419fa"
+  },
+  "ingredients": [
+    { "name": "Courgettes", "amount": "400g" },
+    { "name": "Red onion", "amount": "1" },
+    { "name": "Feta", "amount": "300g" },
+    { "name": "Extra-virgin olive oil", "amount": "8 tbsp, plus more to taste" },
+    { "name": "Za'atar", "amount": "2 tsp, plus extra to serve" },
+    { "name": "Fine sea salt", "amount": "1 tsp" },
+    { "name": "Black pepper", "amount": "to taste" },
+    { "name": "Small aubergine", "amount": "1 (450g)" },
+    { "name": "Greek yoghurt", "amount": "100g" },
+    { "name": "Lemon", "amount": "1" },
+    { "name": "Butter beans", "amount": "570g jar, 240g drained" },
+    { "name": "Fresh mint", "amount": "20g" }
+  ],
+  "instructions": [
+    "Heat the oven to 220C/200C fan/gas 7 and line two large baking trays. Cut the courgettes into rough 3cm pieces, the onion into 1½cm wedges and the aubergine into rough 5cm × 4cm pieces.",
+    "In a bowl, toss the courgettes and onion with a third of the feta broken into small pieces, 3 tbsp oil, 1 tsp za'atar and ½ tsp salt. Spread out on one tray.",
+    "In the same bowl, toss the aubergine with 2 tbsp oil, 1 tsp za'atar and ¼ tsp salt. Spread on the second tray and keep the bowl. Roast both trays for 30 minutes, until tender and golden in spots.",
+    "Meanwhile, blitz the remaining 200g feta with the yoghurt, 3 tbsp oil, the lemon zest, ½ tbsp lemon juice and ¼ tsp salt until smooth. Spread over a large platter.",
+    "Tip the roast vegetables and their juices back into the bowl, stir through the butter beans and torn mint, season with black pepper, oil and salt to taste, and pile on top of the whipped feta. Finish with a pinch of za'atar."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Courgettes", "amount": "400g", "note": "rough 3cm pieces, in a bowl; oven at 220C/200C fan, two lined trays" },
+        { "name": "Red onion", "amount": "1", "note": "1½cm wedges" },
+        { "name": "Feta", "amount": "100g", "note": "broken into small pieces" },
+        { "name": "Extra-virgin olive oil", "amount": "3 tbsp" },
+        { "name": "Za'atar", "amount": "1 tsp" },
+        { "name": "Fine sea salt", "amount": "½ tsp", "note": "toss, spread out on the first tray" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Aubergine", "amount": "450g", "note": "rough 5cm × 4cm pieces, in the same bowl" },
+        { "name": "Extra-virgin olive oil", "amount": "2 tbsp" },
+        { "name": "Za'atar", "amount": "1 tsp" },
+        { "name": "Fine sea salt", "amount": "¼ tsp", "note": "toss, spread on the second tray, keep the bowl" }
+      ]
+    },
+    { "kind": "wait", "duration": "30 minutes", "note": "roasting both trays, until tender and golden in spots; whip the feta meanwhile" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Feta", "amount": "200g", "note": "in a food processor" },
+        { "name": "Greek yoghurt", "amount": "100g" },
+        { "name": "Extra-virgin olive oil", "amount": "3 tbsp" },
+        { "name": "Lemon zest", "amount": "1 lemon", "note": "finely grated" },
+        { "name": "Lemon juice", "amount": "½ tbsp" },
+        { "name": "Fine sea salt", "amount": "¼ tsp", "note": "blitz until smooth, spread over a platter" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Roast vegetables", "amount": "both trays", "note": "with their juices, back into the bowl" },
+        { "name": "Butter beans", "amount": "240g", "note": "drained" },
+        { "name": "Fresh mint", "amount": "20g", "note": "leaves torn" },
+        { "name": "Black pepper", "amount": "a little", "note": "check salt and oil, then pile on the whipped feta" },
+        { "name": "Za'atar", "amount": "a pinch", "note": "to serve" }
+      ]
+    }
+  ]
+}

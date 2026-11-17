@@ -1,0 +1,82 @@
+{
+  "id": "lime-dal-roast-squash-chilli-cashews",
+  "title": "Lime dal with roast squash and chilli cashews",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2025/oct/13/quick-easy-lime-dal-recipe-roast-squash-chilli-cashews-rukmini-iyer",
+    "site": "The Guardian",
+    "title": "Rukmini Iyer's quick and easy recipe for lime dal with roast squash and chilli cashews",
+    "image": "https://i.guim.co.uk/img/media/4e7e1bd8866233dcd647b8f676bab1b56bc2a5c0/0_1437_3671_2934/master/3671.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=842bd2ed0fae68b5cd10ba07b0e53a11"
+  },
+  "ingredients": [
+    { "name": "Butternut squash flesh", "amount": "600g" },
+    { "name": "Neutral or olive oil", "amount": "1 tbsp, plus 1 tsp for the cashews" },
+    { "name": "Sea salt flakes", "amount": "to taste" },
+    { "name": "Ground coriander", "amount": "1 tsp, freshly ground" },
+    { "name": "Ground cumin", "amount": "1 tsp" },
+    { "name": "Red lentils", "amount": "150g" },
+    { "name": "Garlic clove", "amount": "1" },
+    { "name": "Turmeric", "amount": "½ tsp" },
+    { "name": "Limes", "amount": "1 to 2" },
+    { "name": "Butter", "amount": "1 tsp" },
+    { "name": "Fresh coriander", "amount": "to serve, chopped" },
+    { "name": "Cashew nuts", "amount": "60g" },
+    { "name": "Chilli flakes", "amount": "¼ tsp" }
+  ],
+  "instructions": [
+    "Heat the oven to 220C/200C fan/gas 7. Toss the cubed squash with the oil, 1 tsp salt, the ground coriander and cumin in a roasting tin large enough for one layer. Roast for 25 to 30 minutes, until cooked through and catching at the edges.",
+    "Meanwhile, put the rinsed lentils in a large pan with 500ml just-boiled water, the garlic and the turmeric. Bring to the boil, partially cover, lower the heat and simmer for 20 to 25 minutes, stirring now and then, until soft.",
+    "Mix the cashews, oil, chilli flakes and a big pinch of salt in a small tray. When the squash has 8 minutes left, put the cashews in the oven too.",
+    "Whisk the dal and season generously with lime juice and salt, tasting as you go, then add the butter. For a silky finish, blitz the dal with the garlic clove in a blender.",
+    "Divide between two bowls, top with the squash and cashews, scatter with coriander and serve with rice or bread."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Butternut squash", "amount": "600g", "note": "1cm cubes, in a roasting tin, oven at 220C/200C fan" },
+        { "name": "Oil", "amount": "1 tbsp" },
+        { "name": "Sea salt flakes", "amount": "1 tsp" },
+        { "name": "Ground coriander", "amount": "1 tsp" },
+        { "name": "Ground cumin", "amount": "1 tsp", "note": "mix well to coat" }
+      ]
+    },
+    { "kind": "wait", "duration": "25 to 30 minutes", "note": "roasting, until cooked through and catching at the edges; start the dal meanwhile" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Red lentils", "amount": "150g", "note": "rinsed well, in a large pan" },
+        { "name": "Just-boiled water", "amount": "500ml" },
+        { "name": "Garlic clove", "amount": "1", "note": "peeled, whole" },
+        { "name": "Turmeric", "amount": "½ tsp", "note": "bring to the boil, partially cover, lower the heat" }
+      ]
+    },
+    { "kind": "wait", "duration": "20 to 25 minutes", "note": "simmering, stirring now and then, until the lentils are soft" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Cashew nuts", "amount": "60g", "note": "small baking tray" },
+        { "name": "Oil", "amount": "1 tsp" },
+        { "name": "Chilli flakes", "amount": "¼ tsp" },
+        { "name": "Sea salt flakes", "amount": "a big pinch", "note": "mix, into the oven when the squash has 8 minutes left" }
+      ]
+    },
+    { "kind": "wait", "duration": "8 minutes", "note": "until the cashews are toasted and the squash is done" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Lime juice", "amount": "1 to 2 limes", "note": "whisk the dal first, season to taste" },
+        { "name": "Sea salt flakes", "amount": "to taste", "note": "a lot" },
+        { "name": "Butter", "amount": "1 tsp", "note": "then blitz the dal smooth in a blender" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Roast squash", "amount": "on top", "note": "dal divided between two bowls" },
+        { "name": "Chilli cashews", "amount": "on top" },
+        { "name": "Fresh coriander", "amount": "a scattering", "note": "to serve, with rice or breads" }
+      ]
+    }
+  ]
+}

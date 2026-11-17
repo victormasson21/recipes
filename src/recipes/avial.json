@@ -1,0 +1,86 @@
+{
+  "id": "avial",
+  "title": "Avial: vegetable stew with coconut, ginger, curry leaves and green chillies",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2026/oct/28/vegetarian-coconut-curry-recipes-spicy-aubergine-baingan-vegetable-stew-maunika-gowardhan",
+    "site": "The Guardian",
+    "title": "Vegetarian coconut curry recipes: Maunika Gowardhan's spicy aubergine baingan and spiced vegetable stew",
+    "image": "https://i.guim.co.uk/img/media/658b3a7f32a7eb45ed9b4c9bd7ce70732debfb1e/0_2000_5213_4167/master/5213.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c6f19b6cdee497cc30f6c889dfc16e6e"
+  },
+  "ingredients": [
+    { "name": "Fresh coconut", "amount": "200g grated" },
+    { "name": "Ginger", "amount": "2½cm piece" },
+    { "name": "Cumin seeds", "amount": "½ tsp" },
+    { "name": "Green bird's eye chilli", "amount": "1" },
+    { "name": "Vegetable oil", "amount": "3 tbsp" },
+    { "name": "Black mustard seeds", "amount": "1 tsp" },
+    { "name": "Dried mild chilli", "amount": "1" },
+    { "name": "Fresh curry leaves", "amount": "7 to 8" },
+    { "name": "White onion", "amount": "70g finely chopped" },
+    { "name": "Turmeric powder", "amount": "1 tsp" },
+    { "name": "Medium carrots", "amount": "200g" },
+    { "name": "Potato", "amount": "150g, a good all-rounder" },
+    { "name": "French beans", "amount": "200g" },
+    { "name": "Black pepper", "amount": "½ tsp coarsely ground" },
+    { "name": "Salt", "amount": "to taste" },
+    { "name": "Greek yoghurt", "amount": "3 tbsp" },
+    { "name": "Coriander", "amount": "to garnish" },
+    { "name": "Rice or paratha", "amount": "to serve" }
+  ],
+  "instructions": [
+    "For the paste, blitz the coconut, ginger, cumin seeds and green chilli with 200ml water until smooth.",
+    "Peel and dice the carrots and potato into 1cm pieces, top the beans and cut each into three, and break the dried chilli into pieces.",
+    "Heat the oil in a heavy pan on a medium heat. Add the mustard seeds, dried chilli and curry leaves and let them splutter for about 15 seconds. Add the onion and fry, stirring, for 7 to 8 minutes, until it starts to soften.",
+    "Add the turmeric, carrots and potatoes, fry for a few seconds, then pour in 200ml water, cover and bring to a simmer. Cook gently for 10 minutes, add the beans and cook for 8 more minutes, until all the vegetables are tender.",
+    "Add the coconut paste and black pepper, season with salt, stir and simmer for 2 minutes. Whisk the yoghurt, stir it in and simmer for 1 more minute. Garnish with coriander and serve at once with rice or paratha."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Fresh coconut", "amount": "200g", "note": "grated, in a blender" },
+        { "name": "Ginger", "amount": "2½cm", "note": "peeled and roughly chopped" },
+        { "name": "Cumin seeds", "amount": "½ tsp" },
+        { "name": "Green bird's eye chilli", "amount": "1" },
+        { "name": "Water", "amount": "200ml", "note": "blitz to a smooth paste, set aside" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Vegetable oil", "amount": "3 tbsp", "note": "heavy saucepan, medium heat" },
+        { "name": "Black mustard seeds", "amount": "1 tsp" },
+        { "name": "Dried mild chilli", "amount": "1", "note": "roughly broken" },
+        { "name": "Fresh curry leaves", "amount": "7 to 8" }
+      ]
+    },
+    { "kind": "wait", "duration": "15 seconds", "note": "until they splutter and pop" },
+    { "kind": "add", "items": [{ "name": "White onion", "amount": "70g", "note": "finely chopped" }] },
+    { "kind": "wait", "duration": "7 to 8 minutes", "note": "stirring, until the onion starts to soften" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Turmeric powder", "amount": "1 tsp" },
+        { "name": "Carrots", "amount": "200g", "note": "peeled, 1cm dice" },
+        { "name": "Potato", "amount": "150g", "note": "peeled, 1cm dice; fry a few seconds" },
+        { "name": "Water", "amount": "200ml", "note": "cover and bring to a simmer" }
+      ]
+    },
+    { "kind": "wait", "duration": "10 minutes", "note": "cooking gently, covered" },
+    { "kind": "add", "items": [{ "name": "French beans", "amount": "200g", "note": "topped, cut into three" }] },
+    { "kind": "wait", "duration": "8 minutes", "note": "until all the vegetables are tender" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Coconut paste", "amount": "all of it" },
+        { "name": "Black pepper", "amount": "½ tsp", "note": "coarsely ground" },
+        { "name": "Salt", "amount": "to taste", "note": "stir" }
+      ]
+    },
+    { "kind": "wait", "duration": "2 minutes", "note": "simmering" },
+    { "kind": "add", "items": [{ "name": "Greek yoghurt", "amount": "3 tbsp", "note": "whisked, stirred in" }] },
+    { "kind": "wait", "duration": "1 minute", "note": "simmering" },
+    { "kind": "add", "items": [{ "name": "Coriander", "amount": "to garnish", "note": "serve at once with rice or paratha" }] }
+  ]
+}

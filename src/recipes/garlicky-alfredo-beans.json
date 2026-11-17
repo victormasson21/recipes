@@ -1,0 +1,56 @@
+{
+  "id": "garlicky-alfredo-beans",
+  "title": "Garlicky alfredo beans",
+  "tag": "to-try",
+  "source": {
+    "url": "https://cooking.nytimes.com/recipes/1025330-garlicky-alfredo-beans",
+    "site": "NYT Cooking",
+    "title": "Garlicky Alfredo Beans",
+    "image": "https://static01.nyt.com/images/2024/04/25/multimedia/cg-garlic-alfredo-beansrex-lzwq/cg-garlic-alfredo-beansrex-lzwq-googleFourByThree-v2.jpg"
+  },
+  "ingredients": [
+    { "name": "Unsalted butter", "amount": "¼ cup (60g)" },
+    { "name": "Garlic cloves", "amount": "9" },
+    { "name": "Kosher salt", "amount": "to taste" },
+    { "name": "White beans", "amount": "2 × 400g tins" },
+    { "name": "Double cream", "amount": "¾ cup (180ml)" },
+    { "name": "Parmesan", "amount": "60g finely grated, plus more to serve" }
+  ],
+  "instructions": [
+    "Thinly slice 8 of the garlic cloves and finely grate the last one. Rinse the beans. Line a small plate with kitchen paper.",
+    "In a medium pot over a medium heat, cook the butter and sliced garlic, stirring often, for about 2 minutes. Once the butter foams, keep lifting the garlic to check its colour and cook for about 1 more minute, until it starts to turn golden. Take it out before it darkens: it keeps cooking off the heat.",
+    "Lift the garlic chips onto the paper with a slotted spoon and season with salt.",
+    "Add the beans, cream, Parmesan and a hefty pinch of salt to the pot and stir. Bring to a simmer over a medium-high heat and cook, stirring gently but often, for about 5 minutes, until the sauce thickens.",
+    "Stir in the grated garlic and simmer for 2 minutes, until fragrant. Divide between bowls and top with more Parmesan and the garlic chips."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Unsalted butter", "amount": "60g", "note": "medium pot, medium heat" },
+        { "name": "Garlic cloves", "amount": "8", "note": "thinly sliced" }
+      ]
+    },
+    { "kind": "wait", "duration": "2 minutes", "note": "stirring often, until the butter foams" },
+    { "kind": "wait", "duration": "1 minute", "note": "until the garlic just turns golden; lift it out with a slotted spoon onto kitchen paper and salt it" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "White beans", "amount": "2 tins", "note": "rinsed" },
+        { "name": "Double cream", "amount": "180ml" },
+        { "name": "Parmesan", "amount": "60g", "note": "finely grated" },
+        { "name": "Kosher salt", "amount": "a hefty pinch", "note": "stir, bring to a simmer on medium-high" }
+      ]
+    },
+    { "kind": "wait", "duration": "5 minutes", "note": "stirring gently but often, until the sauce thickens" },
+    { "kind": "add", "items": [{ "name": "Garlic clove", "amount": "1", "note": "finely grated, stirred in" }] },
+    { "kind": "wait", "duration": "2 minutes", "note": "simmering, until fragrant" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Parmesan", "amount": "more", "note": "over each bowl" },
+        { "name": "Garlic chips", "amount": "all of them", "note": "on top, to serve" }
+      ]
+    }
+  ]
+}

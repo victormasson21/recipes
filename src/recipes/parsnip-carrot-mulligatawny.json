@@ -1,0 +1,83 @@
+{
+  "id": "parsnip-carrot-mulligatawny",
+  "title": "Parsnip and carrot mulligatawny",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/lifeandstyle/2017/nov/18/mulligatawny-soup-parsnip-carrot-recipe-vegan-meera-sodha",
+    "site": "The Guardian",
+    "title": "Meera Sodha's vegan recipe for parsnip and carrot mulligatawny soup",
+    "image": "https://i.guim.co.uk/img/media/7dd8637d33306964a6388e68cf3ed94f0492b598/0_690_3451_2071/master/3451.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d1ca410832986839d8342db25c8d37e7"
+  },
+  "ingredients": [
+    { "name": "Rapeseed oil", "amount": "3 tbsp, plus 1½ tbsp for the crisps" },
+    { "name": "Large brown onion", "amount": "1" },
+    { "name": "Garlic cloves", "amount": "4" },
+    { "name": "Ginger", "amount": "3cm" },
+    { "name": "Green finger chilli", "amount": "1" },
+    { "name": "Carrots", "amount": "2 (250g)" },
+    { "name": "Parsnips", "amount": "2 (250g), plus 1 for the crisps" },
+    { "name": "Ground cumin", "amount": "1 tsp" },
+    { "name": "Ground coriander", "amount": "1½ tsp" },
+    { "name": "Red lentils", "amount": "150g" },
+    { "name": "Vegetable stock", "amount": "1¼ litres, vegan" },
+    { "name": "Salt", "amount": "to taste" }
+  ],
+  "instructions": [
+    "Heat the oven to 180C/160C fan/gas 4 for the crisps. Peel and dice the onion, crush the garlic, grate the ginger, finely chop the chilli, and peel and cut the carrots and parsnips into 1cm cubes. Wash and drain the lentils.",
+    "Heat the oil in a deep pan over a medium heat and fry the onion for 5 minutes, stirring now and then, until soft and translucent. Add the garlic, ginger and chilli and stir-fry for 2 minutes.",
+    "Add the carrots and parsnips and cook for 6 to 8 minutes, stirring now and then, until the onions are sticky. Add a splash of water if the mix is dry. Stir in the cumin and coriander for a minute.",
+    "Add the lentils, stock and ¼ tsp salt, bring to the boil, then turn the heat right down and simmer for 15 minutes, until the vegetables are tender. Blend if you prefer a smooth soup. Season to taste.",
+    "For the crisps, while the soup simmers, peel the parsnip into ribbons, toss with the oil and a pinch of salt, and roast until golden and crisp. Scatter over the soup."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Rapeseed oil", "amount": "3 tbsp", "note": "deep pan, medium heat" },
+        { "name": "Brown onion", "amount": "1 large", "note": "peeled and diced" }
+      ]
+    },
+    { "kind": "wait", "duration": "5 minutes", "note": "stirring now and then, until soft and translucent" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Garlic cloves", "amount": "4", "note": "peeled and crushed" },
+        { "name": "Ginger", "amount": "3cm", "note": "peeled and grated" },
+        { "name": "Green finger chilli", "amount": "1", "note": "very finely chopped" }
+      ]
+    },
+    { "kind": "wait", "duration": "2 minutes", "note": "stir-frying" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Carrots", "amount": "2", "note": "peeled, 1cm cubes" },
+        { "name": "Parsnips", "amount": "2", "note": "peeled, 1cm cubes" }
+      ]
+    },
+    { "kind": "wait", "duration": "6 to 8 minutes", "note": "stirring now and then, until the onions are sticky; a splash of water if dry" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Ground cumin", "amount": "1 tsp" },
+        { "name": "Ground coriander", "amount": "1½ tsp" }
+      ]
+    },
+    { "kind": "wait", "duration": "1 minute", "note": "stirring" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Red lentils", "amount": "150g", "note": "washed and drained" },
+        { "name": "Vegetable stock", "amount": "1¼ litres" },
+        { "name": "Salt", "amount": "¼ tsp", "note": "stir, bring to the boil, then turn the heat right down" }
+      ]
+    },
+    { "kind": "wait", "duration": "15 minutes", "note": "simmering, until the vegetables are tender; blend if you like, then season" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Parsnip", "amount": "1", "note": "peeled into ribbons, tossed with 1½ tbsp oil and salt, roasted at 180C while the soup simmers" }
+      ]
+    },
+    { "kind": "wait", "duration": "Until golden and crisp", "note": "then scatter over the soup to serve" }
+  ]
+}

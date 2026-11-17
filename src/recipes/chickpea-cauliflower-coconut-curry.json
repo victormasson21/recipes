@@ -1,0 +1,72 @@
+{
+  "id": "chickpea-cauliflower-coconut-curry",
+  "title": "Chickpea, cauliflower and coconut curry",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2023/feb/27/about-1-pound-a-portion-one-pan-chickpea-curry-recipes-rukmini-iyer",
+    "site": "The Guardian",
+    "title": "About £1 a portion: one-pan chickpea curry recipes from Rukmini Iyer",
+    "image": "https://i.guim.co.uk/img/media/3030c23dd26d4b81aaef1eeb9f7ee82ab5a6a8f3/0_1428_5683_3410/master/5683.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=51965fb7f622488291734d5086137128"
+  },
+  "ingredients": [
+    { "name": "Neutral oil", "amount": "2 tbsp" },
+    { "name": "Cumin seeds", "amount": "1 tsp" },
+    { "name": "Onion", "amount": "1" },
+    { "name": "Fresh ginger", "amount": "5cm piece" },
+    { "name": "Garlic cloves", "amount": "2" },
+    { "name": "Ground cumin", "amount": "1 heaped tsp" },
+    { "name": "Ground coriander", "amount": "1 heaped tsp" },
+    { "name": "Ground turmeric", "amount": "½ tsp" },
+    { "name": "Crushed chillies", "amount": "1 tsp" },
+    { "name": "Sea salt flakes", "amount": "1 tsp" },
+    { "name": "Coconut milk", "amount": "1 × 400g tin" },
+    { "name": "Cauliflower", "amount": "1" },
+    { "name": "Chickpeas", "amount": "1 × 400g tin" },
+    { "name": "Spinach", "amount": "100g" },
+    { "name": "Limes", "amount": "2" }
+  ],
+  "instructions": [
+    "Peel and finely chop the onion, grate the ginger and garlic, cut the cauliflower into small florets, and drain and rinse the chickpeas.",
+    "Put the oil in a large pan on a medium heat, add the cumin seeds and fry for 30 seconds. Add the onion and cook on medium-low, stirring, for 10 minutes, until golden brown. Add the ginger, garlic, cumin, coriander, turmeric, chilli and salt, turn the heat to low and stir-fry for 2 minutes.",
+    "Stir in the coconut milk, add the cauliflower and chickpeas and bring to the boil. Simmer for 15 minutes, until the cauliflower is just cooked. Add the spinach and cook for 2 more minutes, until wilted.",
+    "Turn off the heat and leave for 10 minutes, then add the lime juice, taste and adjust the salt. Serve with rice or flatbreads."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Neutral oil", "amount": "2 tbsp", "note": "large saucepan, medium heat" },
+        { "name": "Cumin seeds", "amount": "1 tsp" }
+      ]
+    },
+    { "kind": "wait", "duration": "30 seconds" },
+    { "kind": "add", "items": [{ "name": "Onion", "amount": "1", "note": "peeled and finely chopped, heat to medium-low" }] },
+    { "kind": "wait", "duration": "10 minutes", "note": "stirring, until golden brown" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Fresh ginger", "amount": "5cm", "note": "peeled and grated" },
+        { "name": "Garlic cloves", "amount": "2", "note": "peeled and grated" },
+        { "name": "Ground cumin", "amount": "1 heaped tsp" },
+        { "name": "Ground coriander", "amount": "1 heaped tsp" },
+        { "name": "Ground turmeric", "amount": "½ tsp" },
+        { "name": "Crushed chillies", "amount": "1 tsp" },
+        { "name": "Sea salt flakes", "amount": "1 tsp", "note": "heat to low" }
+      ]
+    },
+    { "kind": "wait", "duration": "2 minutes", "note": "stir-frying" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Coconut milk", "amount": "1 × 400g tin", "note": "stir in" },
+        { "name": "Cauliflower", "amount": "1", "note": "small florets" },
+        { "name": "Chickpeas", "amount": "1 tin", "note": "drained and rinsed; bring to the boil, then simmer" }
+      ]
+    },
+    { "kind": "wait", "duration": "15 minutes", "note": "until the cauliflower is just cooked through" },
+    { "kind": "add", "items": [{ "name": "Spinach", "amount": "100g" }] },
+    { "kind": "wait", "duration": "2 minutes", "note": "until wilted, then turn off the heat" },
+    { "kind": "wait", "duration": "10 minutes", "note": "standing off the heat" },
+    { "kind": "add", "items": [{ "name": "Lime juice", "amount": "2 limes", "note": "taste and adjust the salt; serve with rice or flatbreads" }] }
+  ]
+}

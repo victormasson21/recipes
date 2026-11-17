@@ -1,0 +1,101 @@
+{
+  "id": "bhagare-baingan",
+  "title": "Bhagare baingan: aubergines with coconut, chilli, tamarind and curry leaves",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2026/oct/28/vegetarian-coconut-curry-recipes-spicy-aubergine-baingan-vegetable-stew-maunika-gowardhan",
+    "site": "The Guardian",
+    "title": "Vegetarian coconut curry recipes: Maunika Gowardhan's spicy aubergine baingan and spiced vegetable stew",
+    "image": "https://i.guim.co.uk/img/media/658b3a7f32a7eb45ed9b4c9bd7ce70732debfb1e/0_2000_5213_4167/master/5213.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c6f19b6cdee497cc30f6c889dfc16e6e"
+  },
+  "ingredients": [
+    { "name": "Poppy seeds", "amount": "1 tbsp" },
+    { "name": "Vegetable oil", "amount": "2 tbsp for the paste, 4 tbsp for the gravy" },
+    { "name": "White onions", "amount": "90g finely chopped, 150g thinly sliced" },
+    { "name": "Sesame seeds", "amount": "1 tbsp" },
+    { "name": "Fresh coconut", "amount": "1 tbsp grated" },
+    { "name": "Fresh tomatoes", "amount": "160g" },
+    { "name": "Garlic cloves", "amount": "5" },
+    { "name": "Turmeric powder", "amount": "¼ tsp" },
+    { "name": "Kashmiri chilli powder", "amount": "1 tsp" },
+    { "name": "Ground cumin", "amount": "2 tsp" },
+    { "name": "Salt", "amount": "to taste" },
+    { "name": "Baby aubergines", "amount": "8 to 10" },
+    { "name": "Tamarind paste", "amount": "1½ tsp" },
+    { "name": "Black pepper", "amount": "½ tsp coarsely ground" },
+    { "name": "Mild dried red chillies", "amount": "2" },
+    { "name": "Fresh curry leaves", "amount": "12" },
+    { "name": "Coriander", "amount": "to garnish" },
+    { "name": "Rice or roti", "amount": "to serve" }
+  ],
+  "instructions": [
+    "For the paste, soak the poppy seeds in 70ml warm water for 20 minutes. Fry the chopped onion in 2 tbsp oil in a small pan for 8 to 9 minutes, until it starts to colour, add the sesame seeds and coconut and fry for 2 minutes. Cool, stir in the poppy seeds and their water, and blitz smooth.",
+    "Blitz the tomatoes to a puree. Grind the garlic to a paste and slit the aubergines lengthways.",
+    "In a large heavy frying pan with a lid, heat 4 tbsp oil over a medium heat and fry the sliced onions, stirring often, for 17 to 18 minutes, until soft and lightly browned. Add the garlic paste for 20 seconds, then the turmeric, chilli powder and cumin for a few seconds, until fragrant.",
+    "Add the tomato puree and fry, stirring, for 5 minutes, until it splits and the oil separates. Add the onion and poppy seed paste and fry, stirring all the time, for 4 minutes.",
+    "Pour in 350ml warm water, season, stir in the aubergines, cover and simmer on low for about 15 minutes, stirring once halfway. Add the tamarind and simmer for 5 more minutes.",
+    "Off the heat, stir in the black pepper, dried chillies and curry leaves. Garnish with coriander and serve with roti or rice."
+  ],
+  "steps": [
+    { "kind": "add", "items": [{ "name": "Poppy seeds", "amount": "1 tbsp", "note": "soaking in 70ml warm water" }] },
+    { "kind": "wait", "duration": "20 minutes", "note": "soaking; start the paste meanwhile" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Vegetable oil", "amount": "2 tbsp", "note": "small frying pan, medium heat" },
+        { "name": "White onion", "amount": "90g", "note": "finely chopped" }
+      ]
+    },
+    { "kind": "wait", "duration": "8 to 9 minutes", "note": "until the onion just starts to colour" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Sesame seeds", "amount": "1 tbsp" },
+        { "name": "Fresh coconut", "amount": "1 tbsp", "note": "grated" }
+      ]
+    },
+    { "kind": "wait", "duration": "2 minutes", "note": "stirring, then cool; stir in the poppy seeds and water and blitz to a smooth paste" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Vegetable oil", "amount": "4 tbsp", "note": "large heavy frying pan with a lid, medium heat" },
+        { "name": "White onions", "amount": "150g", "note": "thinly sliced" }
+      ]
+    },
+    { "kind": "wait", "duration": "17 to 18 minutes", "note": "stirring regularly, until soft and lightly browned" },
+    { "kind": "add", "items": [{ "name": "Garlic cloves", "amount": "5", "note": "ground to a paste" }] },
+    { "kind": "wait", "duration": "20 seconds" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Turmeric powder", "amount": "¼ tsp" },
+        { "name": "Kashmiri chilli powder", "amount": "1 tsp" },
+        { "name": "Ground cumin", "amount": "2 tsp", "note": "stir for a few seconds, until fragrant" }
+      ]
+    },
+    { "kind": "add", "items": [{ "name": "Tomatoes", "amount": "160g", "note": "blitzed to a puree" }] },
+    { "kind": "wait", "duration": "5 minutes", "note": "stirring, until the mix splits and the oil leaves the side of the pan" },
+    { "kind": "add", "items": [{ "name": "Onion and poppy seed paste", "amount": "all of it" }] },
+    { "kind": "wait", "duration": "4 minutes", "note": "stirring continuously" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Warm water", "amount": "350ml" },
+        { "name": "Salt", "amount": "to taste" },
+        { "name": "Baby aubergines", "amount": "8 to 10", "note": "slit open lengthways; cover, low heat" }
+      ]
+    },
+    { "kind": "wait", "duration": "15 minutes", "note": "simmering covered, stirring once halfway" },
+    { "kind": "add", "items": [{ "name": "Tamarind paste", "amount": "1½ tsp" }] },
+    { "kind": "wait", "duration": "5 minutes", "note": "simmering, then take off the heat" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Black pepper", "amount": "½ tsp", "note": "coarsely ground" },
+        { "name": "Mild dried red chillies", "amount": "2", "note": "whole" },
+        { "name": "Fresh curry leaves", "amount": "12" },
+        { "name": "Coriander", "amount": "to garnish", "note": "serve warm with roti or rice" }
+      ]
+    }
+  ]
+}

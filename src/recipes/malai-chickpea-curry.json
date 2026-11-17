@@ -1,0 +1,60 @@
+{
+  "id": "malai-chickpea-curry",
+  "title": "Malai chickpea curry",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2023/feb/27/about-1-pound-a-portion-one-pan-chickpea-curry-recipes-rukmini-iyer",
+    "site": "The Guardian",
+    "title": "About £1 a portion: one-pan chickpea curry recipes from Rukmini Iyer",
+    "image": "https://i.guim.co.uk/img/media/3030c23dd26d4b81aaef1eeb9f7ee82ab5a6a8f3/0_1428_5683_3410/master/5683.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=51965fb7f622488291734d5086137128"
+  },
+  "ingredients": [
+    { "name": "Neutral oil", "amount": "2 tbsp" },
+    { "name": "Onion", "amount": "1" },
+    { "name": "Green pepper", "amount": "1" },
+    { "name": "Chestnut mushrooms", "amount": "250g" },
+    { "name": "Ground cumin", "amount": "2 tsp" },
+    { "name": "Ground coriander", "amount": "1 heaped tsp" },
+    { "name": "Ground turmeric", "amount": "½ tsp" },
+    { "name": "Ground ginger", "amount": "1 tsp" },
+    { "name": "Crushed chillies", "amount": "1 tsp, or to taste" },
+    { "name": "Sea salt flakes", "amount": "1 tsp" },
+    { "name": "Chickpeas", "amount": "1 × 400g tin" },
+    { "name": "Chopped tomatoes", "amount": "2 × 400g tins" },
+    { "name": "Single cream", "amount": "150ml" }
+  ],
+  "instructions": [
+    "Heat the oven to 200C/180C fan/gas 6. Peel and roughly chop the onion, deseed and roughly chop the pepper, roughly chop the mushrooms, and drain and rinse the chickpeas.",
+    "Tip the oil, onion, pepper, mushrooms, spices and salt into a large roasting tin, toss to coat and roast for 15 minutes.",
+    "Stir in the chickpeas, tomatoes and cream and return to the oven for 40 to 45 minutes.",
+    "Rest for 5 minutes, taste and adjust the salt. Serve with flatbreads or rice."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Neutral oil", "amount": "2 tbsp", "note": "large roasting tin, oven at 200C/180C fan" },
+        { "name": "Onion", "amount": "1", "note": "peeled and roughly chopped" },
+        { "name": "Green pepper", "amount": "1", "note": "deseeded and roughly chopped" },
+        { "name": "Chestnut mushrooms", "amount": "250g", "note": "roughly chopped" },
+        { "name": "Ground cumin", "amount": "2 tsp" },
+        { "name": "Ground coriander", "amount": "1 heaped tsp" },
+        { "name": "Ground turmeric", "amount": "½ tsp" },
+        { "name": "Ground ginger", "amount": "1 tsp" },
+        { "name": "Crushed chillies", "amount": "1 tsp" },
+        { "name": "Sea salt flakes", "amount": "1 tsp", "note": "toss to coat" }
+      ]
+    },
+    { "kind": "wait", "duration": "15 minutes", "note": "roasting" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Chickpeas", "amount": "1 tin", "note": "drained and rinsed" },
+        { "name": "Chopped tomatoes", "amount": "2 tins" },
+        { "name": "Single cream", "amount": "150ml", "note": "stir in, back into the oven" }
+      ]
+    },
+    { "kind": "wait", "duration": "40 to 45 minutes", "note": "roasting" },
+    { "kind": "wait", "duration": "5 minutes", "note": "resting; taste and adjust the salt, serve with flatbreads or rice" }
+  ]
+}

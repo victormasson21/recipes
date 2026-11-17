@@ -1,0 +1,93 @@
+{
+  "id": "caramelised-onion-chilli-ramen",
+  "title": "Caramelised onion and chilli ramen with soy eggs",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2020/mar/23/20-best-noodle-recipes-onion-chilli-ramen",
+    "site": "The Guardian",
+    "title": "Meera Sodha's caramelised onion and chilli ramen",
+    "image": "https://i.guim.co.uk/img/media/cde675754e514df5f813bce983c03cf4da340384/0_1837_3795_2277/master/3795.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=ef450bfa561634ae807e9e8ac47d59c5"
+  },
+  "ingredients": [
+    { "name": "Rapeseed oil", "amount": "5 tbsp, plus a little for the noodles" },
+    { "name": "Large brown onions", "amount": "3 (500g)" },
+    { "name": "Garlic cloves", "amount": "3" },
+    { "name": "Salt", "amount": "½ tsp" },
+    { "name": "Bird's-eye chilli", "amount": "1" },
+    { "name": "Vegetable stock", "amount": "1½ litres" },
+    { "name": "Cooking sake", "amount": "2 tbsp, or rice wine or dry sherry" },
+    { "name": "Light soy sauce", "amount": "1½ tbsp, plus 100ml for the eggs" },
+    { "name": "Brown rice miso", "amount": "1 tbsp" },
+    { "name": "Ramen noodles", "amount": "200g" },
+    { "name": "Choi sum", "amount": "200g" },
+    { "name": "Eggs", "amount": "6 medium, for the soy eggs, optional" },
+    { "name": "White wine vinegar", "amount": "1 tbsp, for the eggs" },
+    { "name": "Caster sugar", "amount": "2 tbsp, for the eggs" },
+    { "name": "Chilli oil", "amount": "to serve, optional" }
+  ],
+  "instructions": [
+    "Soy eggs, the night before: mix 100ml soy sauce, the vinegar, sugar and 150ml cold water in a jar. Lower the eggs into a pan of boiling water and cook for exactly 7 minutes, then cool in iced water for 10 minutes. Peel, drop into the soy mix, cover with kitchen paper to keep them under and leave in the fridge overnight.",
+    "Finely slice the onions, garlic and chilli. Cut the choi sum into 6cm pieces.",
+    "Warm the oil in a large heavy pan over a medium heat. Add the onions, garlic and salt and cook for 8 to 10 minutes, until translucent. Turn the heat to its lowest and cook for 30 minutes more, stirring every 5 minutes, until the onions caramelise and break down.",
+    "Add the chilli and stock and bring to the boil. Reduce to a simmer, stir in the sake, soy and miso, and check the seasoning.",
+    "Cook the noodles as the packet says, refresh in cold water and stir in a little oil. Bring the broth back to the boil, add the choi sum and cook for 1 to 2 minutes, until tender.",
+    "Divide the noodles between four bowls, ladle over the broth and greens, top with halved soy eggs and chilli oil."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Eggs", "amount": "6", "note": "the night before: into a pan of boiling water, large spoon" }
+      ]
+    },
+    { "kind": "wait", "duration": "7 minutes", "note": "exactly, then into iced water" },
+    { "kind": "wait", "duration": "10 minutes", "note": "then peel the eggs" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Light soy sauce", "amount": "100ml", "note": "in a jar" },
+        { "name": "White wine vinegar", "amount": "1 tbsp" },
+        { "name": "Caster sugar", "amount": "2 tbsp" },
+        { "name": "Cold water", "amount": "150ml", "note": "stir, add the peeled eggs, kitchen paper on top, fridge overnight" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Rapeseed oil", "amount": "5 tbsp", "note": "large heavy pan, medium heat" },
+        { "name": "Brown onions", "amount": "3 large", "note": "finely sliced" },
+        { "name": "Garlic cloves", "amount": "3", "note": "finely sliced" },
+        { "name": "Salt", "amount": "½ tsp", "note": "stir" }
+      ]
+    },
+    { "kind": "wait", "duration": "8 to 10 minutes", "note": "until the onions are translucent, then the lowest heat" },
+    { "kind": "wait", "duration": "30 minutes", "note": "stirring every 5 minutes, until caramelised and broken down" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Bird's-eye chilli", "amount": "1", "note": "finely sliced" },
+        { "name": "Vegetable stock", "amount": "1½ litres", "note": "bring to the boil, then down to a simmer" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Cooking sake", "amount": "2 tbsp" },
+        { "name": "Light soy sauce", "amount": "1½ tbsp" },
+        { "name": "Brown rice miso", "amount": "1 tbsp", "note": "stir well, check the seasoning" }
+      ]
+    },
+    { "kind": "add", "items": [{ "name": "Ramen noodles", "amount": "200g", "note": "separate pan, as the packet says" }] },
+    { "kind": "wait", "duration": "Packet time", "note": "then refresh in cold water and stir in a little oil" },
+    { "kind": "add", "items": [{ "name": "Choi sum", "amount": "200g", "note": "6cm pieces, into the broth brought back to the boil" }] },
+    { "kind": "wait", "duration": "1 to 2 minutes", "note": "until tender" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Noodles", "amount": "4 bowls", "note": "ladle the broth and greens over the top" },
+        { "name": "Soy eggs", "amount": "4", "note": "halved, on top" },
+        { "name": "Chilli oil", "amount": "a drizzle", "note": "to serve" }
+      ]
+    }
+  ]
+}

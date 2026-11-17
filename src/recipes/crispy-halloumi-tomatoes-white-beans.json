@@ -1,0 +1,60 @@
+{
+  "id": "crispy-halloumi-tomatoes-white-beans",
+  "title": "Crispy halloumi with tomatoes and white beans",
+  "tag": "to-try",
+  "source": {
+    "url": "https://cooking.nytimes.com/recipes/1026520-crispy-halloumi-with-tomatoes-and-white-beans",
+    "site": "NYT Cooking",
+    "title": "Crispy Halloumi With Tomatoes and White Beans",
+    "image": "https://static01.nyt.com/images/2025/05/05/multimedia/-NB-Crispy-Halloumi-Tomatoes-and-White2-hmvk/-NB-Crispy-Halloumi-Tomatoes-and-White2-hmvk-googleFourByThree.jpg"
+  },
+  "ingredients": [
+    { "name": "Olive oil", "amount": "as needed" },
+    { "name": "Cherry tomatoes", "amount": "1 lb (450g)" },
+    { "name": "Garlic cloves", "amount": "2" },
+    { "name": "Parsley", "amount": "1 tbsp chopped, plus more to serve" },
+    { "name": "Honey", "amount": "1 tsp, plus more to serve" },
+    { "name": "Dried oregano", "amount": "½ tsp, or thyme" },
+    { "name": "Salt", "amount": "to taste" },
+    { "name": "Black pepper", "amount": "to taste" },
+    { "name": "Cannellini beans", "amount": "1 × 400g tin, or butter or navy beans" },
+    { "name": "Halloumi", "amount": "1 × 225g block" },
+    { "name": "Lemon", "amount": "½" },
+    { "name": "Crusty bread", "amount": "to serve, optional" }
+  ],
+  "instructions": [
+    "Set the grill to high with a rack in the upper third of the oven, 8 to 10cm from the heat. Halve the tomatoes lengthways, mince the garlic, chop the parsley, drain the beans and slice the halloumi ½cm thick.",
+    "In a large ovenproof pan over a medium heat, combine 2 tbsp olive oil with the tomatoes, garlic, parsley, honey and oregano. Season and cook, stirring often, for about 10 minutes, until the tomatoes soften and release their juices.",
+    "Stir in the beans and cook for about 3 minutes, until heated through. Taste, season, and turn off the heat.",
+    "Lay the halloumi slices over the top and grill for about 5 minutes, until golden and crisp.",
+    "Drizzle generously with olive oil, squeeze over the lemon, add a light drizzle of honey and a scatter of parsley. Serve at once, with bread."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Olive oil", "amount": "2 tbsp", "note": "large ovenproof pan, medium heat; grill on high" },
+        { "name": "Cherry tomatoes", "amount": "450g", "note": "halved lengthways" },
+        { "name": "Garlic cloves", "amount": "2", "note": "minced" },
+        { "name": "Parsley", "amount": "1 tbsp", "note": "finely chopped" },
+        { "name": "Honey", "amount": "1 tsp" },
+        { "name": "Dried oregano", "amount": "½ tsp" },
+        { "name": "Salt and black pepper", "amount": "to taste" }
+      ]
+    },
+    { "kind": "wait", "duration": "10 minutes", "note": "stirring often, until the tomatoes soften and release their juices" },
+    { "kind": "add", "items": [{ "name": "Cannellini beans", "amount": "1 tin", "note": "drained" }] },
+    { "kind": "wait", "duration": "3 minutes", "note": "until heated through; taste, season, turn off the heat" },
+    { "kind": "add", "items": [{ "name": "Halloumi", "amount": "225g", "note": "½cm slices laid on top, pan under the grill" }] },
+    { "kind": "wait", "duration": "5 minutes", "note": "until the halloumi is golden and crisp" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Olive oil", "amount": "a generous drizzle" },
+        { "name": "Lemon", "amount": "½", "note": "squeezed over" },
+        { "name": "Honey", "amount": "a light drizzle" },
+        { "name": "Parsley", "amount": "a scattering", "note": "to serve, with crusty bread" }
+      ]
+    }
+  ]
+}
