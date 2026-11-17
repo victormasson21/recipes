@@ -1,4 +1,5 @@
 import type { ReactNode } from "react"
+import type { MotifId } from "./motif"
 
 type IconProps = { readonly size?: number; readonly strokeWidth?: number; readonly children: ReactNode }
 
@@ -69,9 +70,8 @@ export const Timer = () => (
   </Icon>
 )
 
-export const Motif = ({ width, height }: { readonly width: number; readonly height: number }) => (
-  <svg aria-hidden="true" width={width} height={height} viewBox="0 0 64 80" style={{ flex: "none" }}>
-    <path d="M0 80V32a32 32 0 0 1 64 0v48z" fill="var(--terracotta)" />
-    <path d="M12 80a20 20 0 0 1 40 0z" fill="var(--accent)" />
-  </svg>
+type MotifProps = { readonly id: MotifId; readonly width: number; readonly height: number }
+
+export const Motif = ({ id, width, height }: MotifProps) => (
+  <img src={`/motifs/${id}.svg`} alt="" width={width} height={height} style={{ flex: "none" }} />
 )

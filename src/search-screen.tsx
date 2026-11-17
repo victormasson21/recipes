@@ -1,5 +1,6 @@
 import { useState, type KeyboardEvent, type SubmitEvent } from "react"
 import { ChevronRight, Cross, MagnifyingGlass, Motif } from "./icons"
+import { pickMotif } from "./motif"
 import type { Recipe, Tag as TagKind } from "./recipe"
 import { TAG_LABELS, TAGS } from "./recipe"
 import { hrefTo } from "./routes"
@@ -71,6 +72,7 @@ export const SearchScreen = ({ recipes, session, activeRecipe }: SearchScreenPro
   const [terms, setTerms] = useState<readonly string[]>([])
   const [draft, setDraft] = useState("")
   const [filter, setFilter] = useState<Filter>("all")
+  const [motif] = useState(pickMotif)
   const results = search(recipes, terms, filter)
 
   const commitDraft = () => {
@@ -100,7 +102,7 @@ export const SearchScreen = ({ recipes, session, activeRecipe }: SearchScreenPro
     <main className={styles.screen}>
       <div className={styles.titleRow}>
         <h1 className={styles.title}>Recipes</h1>
-        <Motif width={40} height={50} />
+        <Motif id={motif} width={40} height={50} />
       </div>
 
       {session !== undefined && activeRecipe !== undefined && (

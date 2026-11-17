@@ -1,6 +1,7 @@
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 import styles from "./cook-screen.module.css"
 import { ArrowLeft, Motif } from "./icons"
+import { pickMotif } from "./motif"
 import type { Recipe } from "./recipe"
 import { hrefTo } from "./routes"
 import { currentStep, toggle, type Session } from "./session"
@@ -23,6 +24,7 @@ const segmentClass = (state: StepState): string | undefined =>
 
 export const CookScreen = ({ recipe, session, update }: CookScreenProps) => {
   useWakeLock()
+  const [motif] = useState(pickMotif)
   const listRef = useRef<HTMLOListElement>(null)
   const count = recipe.steps.length
   const current = currentStep(session.done, count)
@@ -62,7 +64,7 @@ export const CookScreen = ({ recipe, session, update }: CookScreenProps) => {
       <div className={styles.titleBlock}>
         <div className={styles.titleRow}>
           <h1 className={styles.title}>{recipe.title}</h1>
-          <Motif width={64} height={80} />
+          <Motif id={motif} width={64} height={80} />
         </div>
         <div className={styles.progress} aria-hidden="true">
           {recipe.steps.map((_, index) => (

@@ -18,7 +18,7 @@ If the build uses design tokens, most of this is a token swap plus the handful o
 | `search.png`, `recipe.png`, `shop.png`, `cook.png` | Each Bohemian screen at 390 × 844 (2x) |
 | `recipe-full.png`, `cook-full.png` | The two long screens at full scroll length |
 | `search.html`, `recipe.html`, `shop.html`, `cook.html` | Static reference markup with inline styles. Source of truth for exact values. Interactions are not wired up |
-| `motif.svg` | The arch and sun motif used beside two screen titles |
+| `motifs/` | Four food motifs shown beside two screen titles, as SVG, PNG, a sprite and a JS module. See `motifs/README.md` |
 
 Where this brief and the HTML disagree, the HTML wins.
 
@@ -39,7 +39,7 @@ Warm, earthy and calm: cream paper, ochre and terracotta, a fine high-contrast s
 | `line` | `#B5DDD0` | `#DCCDB4` | Bottom bar border, upcoming progress segments, image placeholder |
 | `on-ink` | `#FFFFFF` | `#FBF6EC` | Text on ink fills |
 | `staples-tint` (new) | used `ground` | `#D9DEC9` | "Staples" tag now has its own sage tint |
-| `terracotta` (new) | none | `#C2714F` | Completed progress segments and the motif only |
+| `terracotta` (new) | none | `#C2714F` | Completed progress segments and the motifs only |
 
 Rules:
 
@@ -110,20 +110,23 @@ These keep their wording but change to uppercase with wide tracking. Apply the c
 | Buttons, chips, pills, tags | Fully rounded | Unchanged |
 | Current step outline | 2px `ink` | Unchanged |
 
-### New: title motif
+### New: title motifs
 
-A small arch with a rising sun (`motif.svg`), decorative and hidden from assistive tech.
+Four small food illustrations (herb sprig, eggs, chilli, pepper mill) in `motifs/`. One is shown at random each time. They are decorative and hidden from assistive tech.
 
 - **Search**: 40 × 50px, right of the "Recipes" title, bottom-aligned with it.
 - **Cook**: 64 × 80px, right of the recipe title, bottom-aligned with it. The title wraps in the remaining width.
 - Not used on Recipe or Shop.
+- Pick the motif when the screen opens and keep it while the screen stays open. Avoid showing the same one twice in a row. `motifs/motifs.js` has a `randomMotif()` helper that does this.
+- All four share a 120 × 150 canvas, so swapping them causes no layout shift.
+- The screenshots show the herb sprig on Search and the chilli on Cook. Any of the four can appear in either place.
 
 ## Screen notes
 
-- **Search**: the title row gains the motif. The "On now" banner becomes an ochre arch. Match counts become serif italic. "Staples" tags turn sage.
+- **Search**: the title row gains a random motif. The "On now" banner becomes an ochre arch. Match counts become serif italic. "Staples" tags turn sage.
 - **Recipe**: amounts in the ingredient list become serif italic in ink. Instruction numbers sit in small ochre arches. The image placeholder uses `line`.
 - **Shop**: amounts become serif italic and follow the row state (ink, or muted when ticked). The checkbox fill is `ink`.
-- **Cook**: timers become ochre arches with a larger serif duration. The progress strip becomes a row of arches. The item name stays on the left with the amount on the right.
+- **Cook**: the title row gains a random motif. Timers become ochre arches with a larger serif duration. The progress strip becomes a row of arches. The item name stays on the left with the amount on the right.
 
 ## Suggested order
 
@@ -132,7 +135,7 @@ A small arch with a rising sun (`motif.svg`), decorative and hidden from assisti
 3. Apply the spaced-capitals label style.
 4. Update radii and the three arch shapes (timer, "On now" banner, instruction badge).
 5. Rebuild the progress strip segments.
-6. Add the motif to Search and Cook.
+6. Add the random motif to Search and Cook.
 7. Compare each screen against its PNG.
 
 ## Checks before calling it done
