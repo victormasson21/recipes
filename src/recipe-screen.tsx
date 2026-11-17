@@ -1,9 +1,27 @@
 import { ArrowLeft, External } from "./icons"
-import type { Recipe } from "./recipe"
+import type { Recipe, Source } from "./recipe"
 import styles from "./recipe-screen.module.css"
 import { hrefTo } from "./routes"
 import { Tag } from "./tag"
 import ui from "./ui.module.css"
+
+const SourceCard = ({ source }: { readonly source: Source }) => (
+  <div className={`${ui.card} ${styles.preview}`}>
+    {source.image === undefined ? (
+      <div className={styles.placeholder}>Link preview image</div>
+    ) : (
+      <img className={styles.image} src={source.image} alt="" />
+    )}
+    <div className={styles.previewText}>
+      <span className={styles.site}>{source.site}</span>
+      <span className={styles.sourceTitle}>{source.title}</span>
+      <a className={ui.textLink} href={source.url} target="_blank" rel="noreferrer">
+        <span>Open original</span>
+        <External />
+      </a>
+    </div>
+  </div>
+)
 
 export const RecipeScreen = ({ recipe }: { readonly recipe: Recipe }) => (
   <main className={ui.screen}>
@@ -19,21 +37,7 @@ export const RecipeScreen = ({ recipe }: { readonly recipe: Recipe }) => (
         <h1 className={ui.title}>{recipe.title}</h1>
       </div>
 
-      <div className={`${ui.card} ${styles.preview}`}>
-        {recipe.source.image === undefined ? (
-          <div className={styles.placeholder}>Link preview image</div>
-        ) : (
-          <img className={styles.image} src={recipe.source.image} alt="" />
-        )}
-        <div className={styles.previewText}>
-          <span className={styles.site}>{recipe.source.site}</span>
-          <span className={styles.sourceTitle}>{recipe.source.title}</span>
-          <a className={ui.textLink} href={recipe.source.url} target="_blank" rel="noreferrer">
-            <span>Open original</span>
-            <External />
-          </a>
-        </div>
-      </div>
+      {recipe.source !== undefined && <SourceCard source={recipe.source} />}
 
       <section className={styles.section}>
         <h2 className={ui.heading}>Ingredients</h2>

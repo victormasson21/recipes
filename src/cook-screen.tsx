@@ -37,7 +37,7 @@ export const CookScreen = ({ recipe, session, update }: CookScreenProps) => {
   }, [current])
 
   const setDone = (index: number) => update({ ...session, done: toggle(session.done, index) })
-  const finish = () => {
+  const stop = () => {
     update(undefined)
     navigate({ screen: "search" })
   }
@@ -48,10 +48,10 @@ export const CookScreen = ({ recipe, session, update }: CookScreenProps) => {
         <a className={ui.back} href={hrefTo({ screen: "recipe", id: recipe.id })} aria-label="Back to recipe">
           <ArrowLeft />
         </a>
-        <nav className={styles.links} aria-label="Recipe and shopping">
-          <a className={ui.textLink} href={recipe.source.url} target="_blank" rel="noreferrer">
-            Recipe
-          </a>
+        <nav className={styles.links} aria-label="Stop and shopping">
+          <button type="button" className={ui.textLink} onClick={stop}>
+            Stop
+          </button>
           <span aria-hidden="true" className={styles.slash}>
             /
           </span>
@@ -93,7 +93,7 @@ export const CookScreen = ({ recipe, session, update }: CookScreenProps) => {
         {finished && (
           <li id={`step-${count + 1}`} className={`${ui.card} ${styles.finished}`}>
             <span className={ui.heading}>All done</span>
-            <button type="button" className={ui.accentButton} onClick={finish}>
+            <button type="button" className={ui.accentButton} onClick={stop}>
               Finish
             </button>
           </li>

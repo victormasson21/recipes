@@ -2,11 +2,6 @@
   "id": "perfect-risotto",
   "title": "Perfect risotto",
   "tag": "to-try",
-  "source": {
-    "url": "https://www.theguardian.com/food/series/how-to-cook-the-perfect",
-    "site": "The Guardian",
-    "title": "Felicity Cloake's perfect risotto"
-  },
   "ingredients": [
     { "name": "Onion", "amount": "½" },
     { "name": "Butter", "amount": "25g, or 1 tbsp vegetable oil" },

@@ -19,7 +19,7 @@ export type Recipe = {
   readonly id: string
   readonly title: string
   readonly tag: Tag
-  readonly source: Source
+  readonly source?: Source
   readonly ingredients: readonly Ingredient[]
   readonly instructions: readonly string[]
   readonly steps: readonly Step[]
@@ -71,7 +71,7 @@ const isRecipe = (value: unknown): value is Recipe =>
   isString(value.id) &&
   isString(value.title) &&
   isTag(value.tag) &&
-  isSource(value.source) &&
+  (value.source === undefined || isSource(value.source)) &&
   Array.isArray(value.ingredients) &&
   value.ingredients.every(isIngredient) &&
   Array.isArray(value.instructions) &&

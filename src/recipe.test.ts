@@ -20,6 +20,16 @@ describe("parseRecipe", () => {
     expect(parseRecipe(sample, "sample")).toBe(sample)
   })
 
+  it("accepts a recipe without a source", () => {
+    const { source: _source, ...noSource } = sample
+    expect(parseRecipe(noSource, "no-source")).toBe(noSource)
+  })
+
+  it("rejects a source without a url", () => {
+    const bad = { ...sample, source: { site: "Example", title: "Sample" } }
+    expect(() => parseRecipe(bad, "bad")).toThrow()
+  })
+
   it("rejects a recipe without steps", () => {
     const { steps: _steps, ...noSteps } = sample
     expect(() => parseRecipe(noSteps, "no-steps.json")).toThrow("no-steps.json is not a valid recipe")

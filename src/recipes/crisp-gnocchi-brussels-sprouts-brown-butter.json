@@ -8,13 +8,13 @@
     "title": "Crisp Gnocchi With Brussels Sprouts and Brown Butter"
   },
   "ingredients": [
-    { "name": "Brussels sprouts", "amount": "1 lb, or broccoli, cauliflower or cabbage" },
+    { "name": "Brussels sprouts", "amount": "450g, or broccoli, cauliflower or cabbage" },
     { "name": "Lemon", "amount": "1" },
     { "name": "Extra-virgin olive oil", "amount": "4 tbsp" },
     { "name": "Kosher salt", "amount": "to taste" },
     { "name": "Black pepper", "amount": "to taste" },
     { "name": "Red-pepper flakes", "amount": "½ tsp" },
-    { "name": "Potato gnocchi", "amount": "1 × 18oz package, shelf-stable or refrigerated" },
+    { "name": "Potato gnocchi", "amount": "500g pack, shelf-stable or fresh" },
     { "name": "Unsalted butter", "amount": "6 tbsp" },
     { "name": "Honey", "amount": "½ tsp" },
     { "name": "Parmesan", "amount": "to serve, freshly grated" }
@@ -30,7 +30,7 @@
       "kind": "add",
       "items": [
         { "name": "Extra-virgin olive oil", "amount": "3 tbsp", "note": "large skillet, medium-high heat" },
-        { "name": "Brussels sprouts", "amount": "1 lb", "note": "trimmed and halved, cut side down in one layer" },
+        { "name": "Brussels sprouts", "amount": "450g", "note": "trimmed and halved, cut side down in one layer" },
         { "name": "Kosher salt", "amount": "½ tsp" },
         { "name": "Black pepper", "amount": "a few grinds" },
         { "name": "Lemon zest", "amount": "2 tsp", "note": "thick strips, coarsely chopped, scattered on top" }
@@ -43,7 +43,7 @@
       "kind": "add",
       "items": [
         { "name": "Extra-virgin olive oil", "amount": "1 tbsp", "note": "same skillet, medium-high heat" },
-        { "name": "Potato gnocchi", "amount": "1 × 18oz package", "note": "broken apart, then cover the pan" }
+        { "name": "Potato gnocchi", "amount": "500g", "note": "broken apart, then cover the pan" }
       ]
     },
     { "kind": "wait", "duration": "2 to 4 minutes", "note": "covered and undisturbed, until golden on one side" },

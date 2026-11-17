@@ -20,7 +20,8 @@ The shape is `Recipe` in `src/recipe.ts`. Rules:
 - `id`: kebab-case from the recipe title, without the author's name. The file is `src/recipes/<id>.json`.
 - `title`: the dish, in sentence case, without the author ("Tahini beans with basil and pine nuts").
 - `tag`: `"to-try"` unless the user says `"staples"`.
-- `source.title`: the page's own title. `source.site`: "The Guardian", "NYT Cooking", and so on.
+- `source.title`: the page's own title. `source.site`: "The Guardian", "NYT Cooking", and so on. Leave `source` out when there is no page to link to (a book, a photo, a family recipe); the app then hides the link preview and the Cook screen's "Recipe" link.
+- Units are metric: convert lb, oz and cups to grams and millilitres, and Fahrenheit to Celsius with the fan setting.
 - `ingredients`: the source's ingredient list, in its order. `name` is the ingredient alone, in sentence case; `amount` holds the quantity and the purchase note ("2 × 400g tins", "1, for zest", "to serve"). This is the shopping list, so one row per thing to buy.
 - `instructions`: the source's method, one string per paragraph or numbered step, written in your own words and kept short.
 - `steps`: the Cook sequence, derived from the method in order.
