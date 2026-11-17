@@ -1,0 +1,59 @@
+{
+  "id": "minty-roast-veg-hummus-salad",
+  "title": "Minty roast veg and hummus salad",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/minty-roast-veg-houmous-salad",
+    "site": "BBC Good Food",
+    "title": "Minty roast veg & hummus salad",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/minty-roast-veg-houmous-salad-9b44e62.jpg?resize=440%2C230"
+  },
+  "ingredients": [
+    { "name": "Parsnips", "amount": "4" },
+    { "name": "Carrots", "amount": "4" },
+    { "name": "Cumin seeds", "amount": "2 tsp" },
+    { "name": "Chickpeas", "amount": "1 × 400g tin" },
+    { "name": "Vegetable oil", "amount": "2 tbsp" },
+    { "name": "Cooked beetroot", "amount": "500g pack, not in vinegar" },
+    { "name": "Clear honey", "amount": "2 tbsp" },
+    { "name": "Hummus", "amount": "200g pot" },
+    { "name": "White wine vinegar", "amount": "2 tbsp" },
+    { "name": "Mint", "amount": "a small bunch" },
+    { "name": "Feta", "amount": "200g block, or Greek-style salad cheese" }
+  ],
+  "instructions": [
+    "Heat the oven to 200C/180C fan/gas 6. Peel the parsnips and cut them and the carrots into wedges, drain the chickpeas, and drain and cut the beetroot into wedges.",
+    "Toss the parsnips, carrots, cumin seeds and chickpeas with the oil and seasoning in a large roasting tin. Roast for 30 minutes, tossing halfway.",
+    "Add the beetroot, drizzle over the honey and return to the oven for 10 minutes.",
+    "Spread the hummus thinly over a platter or four plates. Drizzle the vinegar over the roast veg and toss in the tin, then tip onto the hummus. Scatter with the mint leaves and crumbled cheese, pour over any tin juices and serve."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Parsnips", "amount": "4", "note": "peeled, cut into wedges, in a large roasting tin; oven at 200C/180C fan" },
+        { "name": "Carrots", "amount": "4", "note": "cut into wedges" },
+        { "name": "Cumin seeds", "amount": "2 tsp" },
+        { "name": "Chickpeas", "amount": "1 tin", "note": "drained" },
+        { "name": "Vegetable oil", "amount": "2 tbsp", "note": "toss with seasoning" }
+      ]
+    },
+    { "kind": "wait", "duration": "30 minutes", "note": "roasting, tossing halfway" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Cooked beetroot", "amount": "500g", "note": "drained, cut into wedges" },
+        { "name": "Clear honey", "amount": "2 tbsp", "note": "drizzled over, back in the oven" }
+      ]
+    },
+    { "kind": "wait", "duration": "10 minutes", "note": "spread the hummus thinly over a platter meanwhile" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "White wine vinegar", "amount": "2 tbsp", "note": "drizzled over the veg, tossed in the tin, then tipped onto the hummus" },
+        { "name": "Mint leaves", "amount": "a small bunch", "note": "scattered over" },
+        { "name": "Feta", "amount": "200g", "note": "crumbled over, with any juices from the tin" }
+      ]
+    }
+  ]
+}

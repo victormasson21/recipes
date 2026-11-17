@@ -1,0 +1,52 @@
+{
+  "id": "perfect-risotto",
+  "title": "Perfect risotto",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/series/how-to-cook-the-perfect",
+    "site": "The Guardian",
+    "title": "Felicity Cloake's perfect risotto"
+  },
+  "ingredients": [
+    { "name": "Onion", "amount": "½" },
+    { "name": "Butter", "amount": "25g, or 1 tbsp vegetable oil" },
+    { "name": "Stock", "amount": "1.25 litres, chicken or vegetable" },
+    { "name": "Carnaroli rice", "amount": "200g" },
+    { "name": "White wine", "amount": "a small glass" },
+    { "name": "Unsalted butter", "amount": "50g" },
+    { "name": "Parmesan or Grana Padano", "amount": "50g" },
+    { "name": "Salt", "amount": "to taste" }
+  ],
+  "instructions": [
+    "Bring the stock to the boil in a pan and keep it hot. Taste it: stock cubes are often too salty, so water it down if needed. Finely chop the onion, dice the 50g butter and grate the cheese.",
+    "Melt the 25g butter in a heavy straight-sided pan and soften the onion. Add the rice, turn up the heat and stir to coat the grains.",
+    "When the rice is hot, add the wine and stir until it has evaporated. Add the stock a ladleful at a time, stirring until nearly absorbed before the next; the rice should stay sloppy, never dry. Add any extra ingredients about 10 minutes in.",
+    "After about 13 minutes the rice begins to soften: add the stock in smaller amounts and test often until it is cooked to your liking.",
+    "Beat in the diced butter and grated cheese with gusto until rich and creamy. Check the seasoning and serve at once."
+  ],
+  "steps": [
+    { "kind": "add", "items": [{ "name": "Stock", "amount": "1.25 litres", "note": "separate pan, bring to the boil and keep hot; taste and water down if salty" }] },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Butter", "amount": "25g", "note": "heavy straight-sided pan" },
+        { "name": "Onion", "amount": "½", "note": "finely chopped" }
+      ]
+    },
+    { "kind": "wait", "duration": "Until soft" },
+    { "kind": "add", "items": [{ "name": "Carnaroli rice", "amount": "200g", "note": "turn up the heat, stir to coat the grains" }] },
+    { "kind": "wait", "duration": "Until the grains are hot" },
+    { "kind": "add", "items": [{ "name": "White wine", "amount": "a small glass", "note": "keep stirring" }] },
+    { "kind": "wait", "duration": "Until evaporated" },
+    { "kind": "add", "items": [{ "name": "Hot stock", "amount": "a ladleful at a time", "note": "stir until nearly absorbed before the next; keep it sloppy" }] },
+    { "kind": "wait", "duration": "13 minutes", "note": "adding stock; extras go in at about 10 minutes" },
+    { "kind": "add", "items": [{ "name": "Hot stock", "amount": "smaller amounts", "note": "test often until cooked to your liking" }] },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Unsalted butter", "amount": "50g", "note": "diced" },
+        { "name": "Parmesan", "amount": "50g", "note": "grated; beat in with gusto until rich and creamy, check the seasoning, serve at once" }
+      ]
+    }
+  ]
+}
