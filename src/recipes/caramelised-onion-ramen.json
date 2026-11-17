@@ -1,0 +1,83 @@
+{
+  "id": "caramelised-onion-ramen",
+  "title": "Caramelised onion ramen",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2019/apr/06/meera-sodha-recipe-vegan-caramelised-onion-ramen",
+    "site": "The Guardian",
+    "title": "Meera Sodha's recipe for vegan caramelised onion ramen",
+    "image": "https://i.guim.co.uk/img/media/795d9de526089fbeb3ccf290301ed101af5b0f49/0_0_3723_2234/master/3723.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=47efc142ea586ea0d651372c6d24e473"
+  },
+  "ingredients": [
+    { "name": "Rapeseed oil", "amount": "4 tbsp, plus a little for the noodles" },
+    { "name": "Large white onions", "amount": "3" },
+    { "name": "Garlic cloves", "amount": "3" },
+    { "name": "Salt", "amount": "½ tsp, plus more to taste" },
+    { "name": "Red chilli", "amount": "1" },
+    { "name": "Vegetable stock", "amount": "1½ litres" },
+    { "name": "Cooking sake", "amount": "2 tbsp, or rice wine or dry sherry" },
+    { "name": "Light soy sauce", "amount": "1½ tbsp" },
+    { "name": "Brown miso", "amount": "1 tbsp" },
+    { "name": "Black pepper", "amount": "to taste" },
+    { "name": "Ramen noodles", "amount": "200g, vegan" },
+    { "name": "Choi sum", "amount": "200g" },
+    { "name": "Chilli oil", "amount": "to serve, optional" }
+  ],
+  "instructions": [
+    "Peel and finely slice the onions and garlic. Finely slice the chilli. Cut the choi sum into 6cm pieces.",
+    "Warm the oil in a large heavy pan over a medium heat. Add the onions, garlic and salt, stir to coat and cook for 10 minutes, until slick and translucent. Turn the heat to low and cook for 30 more minutes, stirring every 5 minutes, until the onions break down into a soft, sweet, caramel-coloured paste.",
+    "Add the chilli and stock and bring to the boil. Turn down to a simmer, stir in the sake, soy and miso, then taste and adjust the seasoning. Turn off the heat.",
+    "Cook the noodles as the packet says, drain, refresh under cold water and stir in a little oil so they do not stick.",
+    "Just before serving, bring the broth back to the boil, drop in the choi sum and cook for 1 to 2 minutes, until just tender.",
+    "Divide the noodles between four bowls, ladle over the broth and greens, and drizzle with chilli oil."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Rapeseed oil", "amount": "4 tbsp", "note": "large heavy pan, medium heat" },
+        { "name": "White onions", "amount": "3 large", "note": "peeled and finely sliced" },
+        { "name": "Garlic cloves", "amount": "3", "note": "peeled and finely sliced" },
+        { "name": "Salt", "amount": "½ tsp", "note": "stir to coat in the oil" }
+      ]
+    },
+    { "kind": "wait", "duration": "10 minutes", "note": "until slick and translucent, then turn the heat to low" },
+    { "kind": "wait", "duration": "30 minutes", "note": "stirring every 5 minutes, until a soft caramel-coloured paste" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Red chilli", "amount": "1", "note": "finely sliced" },
+        { "name": "Vegetable stock", "amount": "1½ litres", "note": "bring to the boil, then down to a simmer" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Cooking sake", "amount": "2 tbsp" },
+        { "name": "Light soy sauce", "amount": "1½ tbsp" },
+        { "name": "Brown miso", "amount": "1 tbsp", "note": "stir well, taste, season with salt and pepper, turn off the heat" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Ramen noodles", "amount": "200g", "note": "separate pan, as the packet says" }
+      ]
+    },
+    { "kind": "wait", "duration": "Packet time", "note": "then drain, refresh under cold water and stir in a little oil" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Choi sum", "amount": "200g", "note": "6cm pieces, into the broth brought back to the boil" }
+      ]
+    },
+    { "kind": "wait", "duration": "1 to 2 minutes", "note": "until just tender" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Noodles", "amount": "4 bowls", "note": "ladle the broth and greens over the top" },
+        { "name": "Chilli oil", "amount": "a drizzle", "note": "to serve" }
+      ]
+    }
+  ]
+}
