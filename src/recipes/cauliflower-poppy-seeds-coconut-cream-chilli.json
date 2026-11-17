@@ -1,0 +1,71 @@
+{
+  "id": "cauliflower-poppy-seeds-coconut-cream-chilli",
+  "title": "Cauliflower with poppy seeds, coconut cream and chilli",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2019/feb/16/winter-vegetable-recipe-cauliflower-coconut-cream-hawaij-stew-braised-greens-yotam-ottolenghi",
+    "site": "The Guardian",
+    "title": "Yotam Ottolenghi's warming winter vegetable recipes",
+    "image": "https://i.guim.co.uk/img/media/3ca1bbafb072be28f8daecd1840474b727119b20/0_153_3566_2138/master/3566.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ee2fe05f24e41d6a03a3528442afc57b"
+  },
+  "ingredients": [
+    { "name": "Poppy seeds", "amount": "40g" },
+    { "name": "Sunflower oil", "amount": "60ml" },
+    { "name": "Chilli flakes", "amount": "¾ tsp" },
+    { "name": "Ground turmeric", "amount": "½ tsp" },
+    { "name": "Paprika", "amount": "¾ tsp" },
+    { "name": "Cumin seeds", "amount": "¾ tsp" },
+    { "name": "Garlic cloves", "amount": "2" },
+    { "name": "Salt", "amount": "¾ tsp" },
+    { "name": "Large cauliflower", "amount": "1" },
+    { "name": "Coconut cream", "amount": "60g" },
+    { "name": "Coriander", "amount": "5g" },
+    { "name": "Flaked almonds", "amount": "15g" },
+    { "name": "Limes", "amount": "2" },
+    { "name": "Flatbreads and yoghurt", "amount": "to serve, for a main" }
+  ],
+  "instructions": [
+    "Soak the poppy seeds in 2 tbsp boiling water for 30 minutes, then crush in a mortar for a minute to break some up. Thinly slice the garlic, break the cauliflower into 4cm florets keeping any tender leaves, toast the almonds, chop the coriander, and juice one lime to get 1 tbsp.",
+    "Heat the oil in a large sauté pan with a lid over a medium-high heat. Fry the spices, garlic and salt for 3 to 4 minutes, stirring often, until the garlic starts to brown and the spices are aromatic.",
+    "Add the cauliflower and leaves and cook, stirring all the time, for 2 minutes until coated. Stir in the coconut cream and poppy seeds, turn down to medium, cover and cook for 4 minutes until starting to soften.",
+    "Uncover, turn up to medium-high and cook for 7 to 8 minutes more, stirring a few times, until the liquid has gone and the cauliflower is caramelised.",
+    "Off the heat, stir in the coriander, almonds and lime juice. Serve with lime wedges."
+  ],
+  "steps": [
+    { "kind": "add", "items": [{ "name": "Poppy seeds", "amount": "40g", "note": "soaking in 2 tbsp boiling water" }] },
+    { "kind": "wait", "duration": "30 minutes", "note": "then crush in a mortar for a minute" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Sunflower oil", "amount": "60ml", "note": "large sauté pan with a lid, medium-high heat" },
+        { "name": "Chilli flakes", "amount": "¾ tsp" },
+        { "name": "Ground turmeric", "amount": "½ tsp" },
+        { "name": "Paprika", "amount": "¾ tsp" },
+        { "name": "Cumin seeds", "amount": "¾ tsp" },
+        { "name": "Garlic cloves", "amount": "2", "note": "peeled and thinly sliced" },
+        { "name": "Salt", "amount": "¾ tsp" }
+      ]
+    },
+    { "kind": "wait", "duration": "3 to 4 minutes", "note": "stirring often, until the garlic starts to brown and the spices are aromatic" },
+    { "kind": "add", "items": [{ "name": "Cauliflower", "amount": "1 large", "note": "4cm florets with any tender leaves; stir continuously" }] },
+    { "kind": "wait", "duration": "2 minutes", "note": "until coated in the spices" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Coconut cream", "amount": "60g" },
+        { "name": "Crushed poppy seeds", "amount": "all of them", "note": "heat down to medium, lid on" }
+      ]
+    },
+    { "kind": "wait", "duration": "4 minutes", "note": "until the cauliflower starts to soften; then lid off, heat to medium-high" },
+    { "kind": "wait", "duration": "7 to 8 minutes", "note": "stirring a few times, until the liquid has evaporated and the cauliflower is caramelised; off the heat" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Coriander", "amount": "5g", "note": "roughly chopped" },
+        { "name": "Flaked almonds", "amount": "15g", "note": "lightly toasted" },
+        { "name": "Lime juice", "amount": "1 tbsp" },
+        { "name": "Lime wedges", "amount": "1 lime", "note": "to serve" }
+      ]
+    }
+  ]
+}

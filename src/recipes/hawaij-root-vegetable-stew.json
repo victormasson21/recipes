@@ -1,0 +1,122 @@
+{
+  "id": "hawaij-root-vegetable-stew",
+  "title": "Hawaij root vegetable stew with whipped fenugreek",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2019/feb/16/winter-vegetable-recipe-cauliflower-coconut-cream-hawaij-stew-braised-greens-yotam-ottolenghi",
+    "site": "The Guardian",
+    "title": "Yotam Ottolenghi's warming winter vegetable recipes",
+    "image": "https://i.guim.co.uk/img/media/3ca1bbafb072be28f8daecd1840474b727119b20/0_153_3566_2138/master/3566.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ee2fe05f24e41d6a03a3528442afc57b"
+  },
+  "ingredients": [
+    { "name": "Olive oil", "amount": "3 tbsp" },
+    { "name": "Onion", "amount": "1" },
+    { "name": "Garlic cloves", "amount": "6" },
+    { "name": "Fresh ginger", "amount": "2cm piece" },
+    { "name": "Tomato paste", "amount": "2 tsp" },
+    { "name": "Plum tomatoes", "amount": "6 to 7 (500g)" },
+    { "name": "Coriander", "amount": "40g, plus extra to serve" },
+    { "name": "Caster sugar", "amount": "1½ tsp" },
+    { "name": "Swede", "amount": "½ (320g)" },
+    { "name": "Parsnips", "amount": "2 (300g)" },
+    { "name": "Carrots", "amount": "2 to 3 (220g)" },
+    { "name": "Baking potatoes", "amount": "2 to 3 (330g)" },
+    { "name": "Yoghurt", "amount": "120g, Greek or dairy-free, to serve" },
+    { "name": "Coriander seeds", "amount": "1 tbsp" },
+    { "name": "Cumin seeds", "amount": "1 tbsp" },
+    { "name": "Black peppercorns", "amount": "½ tsp" },
+    { "name": "Cloves", "amount": "2" },
+    { "name": "Cardamom pods", "amount": "8, seeds only" },
+    { "name": "Ground turmeric", "amount": "1 tsp" },
+    { "name": "Ground fenugreek", "amount": "2 tsp" },
+    { "name": "Green chilli", "amount": "1" },
+    { "name": "Spring onion", "amount": "1" },
+    { "name": "Lemon", "amount": "1" },
+    { "name": "Salt", "amount": "2 tsp" }
+  ],
+  "instructions": [
+    "Whipped fenugreek, at least 2 hours ahead: soak the ground fenugreek in 250ml boiling water for 2 hours or overnight. Pour off the liquid, add 1 tbsp water and whisk the spongy fenugreek for about 10 minutes until pale like mayonnaise. Blitz with the chilli, spring onion, 10g coriander, 1½ tbsp lemon juice, ¼ tsp salt and 3 tbsp water until smooth.",
+    "Hawaij: toast the coriander and cumin seeds, peppercorns and cloves, grind finely with the cardamom seeds, and stir in the turmeric.",
+    "Cut the onion into 8 wedges, crush the garlic, grate the ginger, peel and coarsely grate the tomatoes, and chop 30g coriander. Peel the swede, parsnips, carrots and potatoes and cut into 3cm chunks, parsnips into quarters lengthways, carrots into 1½cm angled slices.",
+    "Heat the oil in a large pan over a medium-high heat. Cook the onion for about 4 minutes, until softened. Add the garlic, ginger, tomato paste and hawaij and cook for 30 seconds, until fragrant.",
+    "Add the tomatoes, two-thirds of the chopped coriander and 2 tbsp water and cook for about 5 minutes, until the tomatoes have cooked down. Add 650ml water, the sugar, the root vegetables and 1¾ tsp salt, bring to the boil, then simmer on medium for about 40 minutes, stirring now and then, until soft and thick.",
+    "Stir in half the whipped fenugreek, cook 10 minutes more, then stir in the rest of the coriander. Serve in bowls with the remaining fenugreek drizzled over, more coriander and the yoghurt."
+  ],
+  "steps": [
+    { "kind": "add", "items": [{ "name": "Ground fenugreek", "amount": "2 tsp", "note": "in a small bowl with 250ml boiling water" }] },
+    { "kind": "wait", "duration": "2 hours", "note": "or overnight; then pour off the liquid, add 1 tbsp water and whisk for 10 minutes until pale" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Green chilli", "amount": "1", "note": "deseeded and roughly chopped, into a food processor with the whipped fenugreek" },
+        { "name": "Spring onion", "amount": "1", "note": "roughly chopped" },
+        { "name": "Coriander", "amount": "10g", "note": "roughly chopped" },
+        { "name": "Lemon juice", "amount": "1½ tbsp" },
+        { "name": "Salt", "amount": "¼ tsp" },
+        { "name": "Water", "amount": "3 tbsp", "note": "pulse until smooth, set aside" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Coriander seeds", "amount": "1 tbsp", "note": "toasted, into a spice grinder or mortar" },
+        { "name": "Cumin seeds", "amount": "1 tbsp", "note": "toasted" },
+        { "name": "Black peppercorns", "amount": "½ tsp", "note": "toasted" },
+        { "name": "Cloves", "amount": "2", "note": "toasted" },
+        { "name": "Cardamom seeds", "amount": "from 8 pods", "note": "grind finely" },
+        { "name": "Ground turmeric", "amount": "1 tsp", "note": "stir in; this is the hawaij" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Olive oil", "amount": "3 tbsp", "note": "large saucepan, medium-high heat" },
+        { "name": "Onion", "amount": "1", "note": "peeled, 8 wedges" }
+      ]
+    },
+    { "kind": "wait", "duration": "4 minutes", "note": "stirring now and then, until softened" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Garlic cloves", "amount": "6", "note": "peeled and crushed" },
+        { "name": "Fresh ginger", "amount": "2cm", "note": "peeled and finely grated" },
+        { "name": "Tomato paste", "amount": "2 tsp" },
+        { "name": "Hawaij", "amount": "all of it" }
+      ]
+    },
+    { "kind": "wait", "duration": "30 seconds", "note": "until fragrant" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Plum tomatoes", "amount": "500g", "note": "peeled and coarsely grated" },
+        { "name": "Coriander", "amount": "20g", "note": "roughly chopped" },
+        { "name": "Water", "amount": "2 tbsp" }
+      ]
+    },
+    { "kind": "wait", "duration": "5 minutes", "note": "stirring now and then, until the tomatoes have cooked down" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Water", "amount": "650ml" },
+        { "name": "Caster sugar", "amount": "1½ tsp" },
+        { "name": "Swede", "amount": "320g", "note": "peeled, 3cm chunks" },
+        { "name": "Parsnips", "amount": "2", "note": "peeled, halved widthways then into 4 lengths" },
+        { "name": "Carrots", "amount": "220g", "note": "peeled, 1½cm angled slices" },
+        { "name": "Baking potatoes", "amount": "330g", "note": "peeled, 3cm chunks" },
+        { "name": "Salt", "amount": "1¾ tsp", "note": "bring to the boil, then medium heat" }
+      ]
+    },
+    { "kind": "wait", "duration": "40 minutes", "note": "simmering, stirring now and then, until the vegetables are soft and the stew thick" },
+    { "kind": "add", "items": [{ "name": "Whipped fenugreek", "amount": "half" }] },
+    { "kind": "wait", "duration": "10 minutes" },
+    { "kind": "add", "items": [{ "name": "Coriander", "amount": "10g", "note": "the rest, stirred in" }] },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Whipped fenugreek", "amount": "the other half", "note": "drizzled over four bowls" },
+        { "name": "Coriander", "amount": "a little", "note": "scattered on top" },
+        { "name": "Yoghurt", "amount": "120g", "note": "to serve" }
+      ]
+    }
+  ]
+}

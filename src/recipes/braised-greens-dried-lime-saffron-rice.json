@@ -1,0 +1,111 @@
+{
+  "id": "braised-greens-dried-lime-saffron-rice",
+  "title": "Braised greens with dried lime, yoghurt and saffron rice",
+  "tag": "to-try",
+  "source": {
+    "url": "https://www.theguardian.com/food/2019/feb/16/winter-vegetable-recipe-cauliflower-coconut-cream-hawaij-stew-braised-greens-yotam-ottolenghi",
+    "site": "The Guardian",
+    "title": "Yotam Ottolenghi's warming winter vegetable recipes",
+    "image": "https://i.guim.co.uk/img/media/3ca1bbafb072be28f8daecd1840474b727119b20/0_153_3566_2138/master/3566.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ee2fe05f24e41d6a03a3528442afc57b"
+  },
+  "ingredients": [
+    { "name": "Dried black lime", "amount": "1, Iranian or Omani" },
+    { "name": "Olive oil", "amount": "60ml" },
+    { "name": "Onion", "amount": "1" },
+    { "name": "Garlic cloves", "amount": "3" },
+    { "name": "Ground cinnamon", "amount": "1 tsp" },
+    { "name": "Dill", "amount": "35g" },
+    { "name": "Coriander", "amount": "35g" },
+    { "name": "Parsley", "amount": "35g" },
+    { "name": "Spring onions", "amount": "4" },
+    { "name": "Cavolo nero", "amount": "300g" },
+    { "name": "Salt", "amount": "2½ tsp" },
+    { "name": "Black pepper", "amount": "to taste" },
+    { "name": "Basmati rice", "amount": "300g" },
+    { "name": "Unsalted butter", "amount": "60g" },
+    { "name": "Saffron threads", "amount": "⅛ tsp, crushed" },
+    { "name": "Greek yoghurt", "amount": "300g" },
+    { "name": "Dried mint", "amount": "1 tsp" }
+  ],
+  "instructions": [
+    "Wash the rice until the water runs clear and soak for at least 2 hours. Soak the saffron in 3 tbsp hot water. Pierce the dried lime a few times, cover with 150ml boiling water, weigh it down with a saucer and soak for 20 minutes. Keep the lime and its water.",
+    "Thinly slice the onion, crush the garlic, roughly chop the herbs, thinly slice the spring onions, and shred the cavolo nero leaves without the woody stems.",
+    "Heat 3 tbsp oil in a large sauté pan over a medium heat. Cook the onion and the soaked lime, stirring now and then, for about 20 minutes, until soft and lightly caramelised. Add the garlic and cinnamon for 2 minutes, then lift out the lime. Add 30g of each herb and all the spring onions and cook for 15 minutes, stirring often, until fragrant and deeply green.",
+    "Finely chop the lime and return it to the pan while the herbs cook. Stir in the cavolo nero, the lime water, 1 tsp salt and plenty of pepper and cook on medium-high for 10 minutes, until the liquid is absorbed and the leaves soft. Off the heat, stir in the remaining herbs and keep warm.",
+    "Meanwhile, drain the rice into a medium pan with a lid, add 580ml boiling water, 1¼ tsp salt and half the butter. Bring to the boil, turn to low, cover tightly with foil and the lid and cook for 15 minutes. Off the heat, rest covered for 10 minutes. Add the rest of the butter, sprinkle with the saffron water and rest 10 minutes more. Do not overmix: you want white and yellow grains.",
+    "Stir the yoghurt with the mint and ¼ tsp salt and spread over a platter with a well in the middle. Spoon the greens into the well, drizzle with the last tablespoon of oil and serve with the rice."
+  ],
+  "steps": [
+    { "kind": "add", "items": [{ "name": "Basmati rice", "amount": "300g", "note": "washed until clear, then soaking in water" }] },
+    { "kind": "wait", "duration": "2 hours", "note": "soaking the rice" },
+    { "kind": "add", "items": [{ "name": "Dried black lime", "amount": "1", "note": "pierced, in 150ml boiling water, weighed down with a saucer" }] },
+    { "kind": "wait", "duration": "20 minutes", "note": "then lift out the lime; keep the water" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Olive oil", "amount": "3 tbsp", "note": "large sauté pan, medium heat" },
+        { "name": "Onion", "amount": "1", "note": "peeled and thinly sliced" },
+        { "name": "Soaked lime", "amount": "1" }
+      ]
+    },
+    { "kind": "wait", "duration": "20 minutes", "note": "stirring now and then, until softened and lightly caramelised" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Garlic cloves", "amount": "3", "note": "peeled and crushed" },
+        { "name": "Ground cinnamon", "amount": "1 tsp" }
+      ]
+    },
+    { "kind": "wait", "duration": "2 minutes", "note": "then lift out the lime and finely chop it" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Dill", "amount": "30g", "note": "roughly chopped" },
+        { "name": "Coriander", "amount": "30g", "note": "roughly chopped" },
+        { "name": "Parsley", "amount": "30g", "note": "roughly chopped" },
+        { "name": "Spring onions", "amount": "4", "note": "thinly sliced" },
+        { "name": "Chopped lime", "amount": "all of it", "note": "back into the pan" }
+      ]
+    },
+    { "kind": "wait", "duration": "15 minutes", "note": "stirring often, until fragrant and deeply green; start the rice meanwhile" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Soaked rice", "amount": "300g", "note": "drained, in a medium pan with a lid" },
+        { "name": "Boiling water", "amount": "580ml" },
+        { "name": "Salt", "amount": "1¼ tsp" },
+        { "name": "Unsalted butter", "amount": "30g", "note": "bring to the boil, then low heat, foil and lid" }
+      ]
+    },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Cavolo nero", "amount": "300g", "note": "stems discarded, leaves shredded, into the herb pan" },
+        { "name": "Lime soaking water", "amount": "150ml" },
+        { "name": "Salt", "amount": "1 tsp" },
+        { "name": "Black pepper", "amount": "a good grind", "note": "heat to medium-high" }
+      ]
+    },
+    { "kind": "wait", "duration": "10 minutes", "note": "until the liquid is absorbed and the leaves soft; off the heat, stir in the remaining 5g of each herb and keep warm" },
+    { "kind": "wait", "duration": "15 minutes", "note": "the rice, covered, on low; then off the heat" },
+    { "kind": "wait", "duration": "10 minutes", "note": "the rice resting, still covered" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Unsalted butter", "amount": "30g", "note": "the rest, into the rice" },
+        { "name": "Saffron water", "amount": "3 tbsp", "note": "sprinkled over; do not overmix" }
+      ]
+    },
+    { "kind": "wait", "duration": "10 minutes", "note": "the rice resting, then into a shallow bowl" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Greek yoghurt", "amount": "300g", "note": "in a small bowl" },
+        { "name": "Dried mint", "amount": "1 tsp" },
+        { "name": "Salt", "amount": "¼ tsp", "note": "stir, spread over a platter with a well in the centre" },
+        { "name": "Braised greens", "amount": "all of them", "note": "spooned into the well" },
+        { "name": "Olive oil", "amount": "1 tbsp", "note": "drizzled over; serve with the rice" }
+      ]
+    }
+  ]
+}
