@@ -1,0 +1,54 @@
+{
+  "id": "zanzibar-pilau",
+  "title": "Zanzibar pilau",
+  "tag": "to-try",
+  "ingredients": [
+    { "name": "Long-grain white rice", "amount": "200g, basmati" },
+    { "name": "Unsalted butter or ghee", "amount": "30g" },
+    { "name": "Small yellow onion", "amount": "1" },
+    { "name": "Green cardamom pods", "amount": "5" },
+    { "name": "Cinnamon stick", "amount": "5cm piece" },
+    { "name": "Ground cloves", "amount": "½ tsp" },
+    { "name": "Full-fat coconut milk", "amount": "120ml" },
+    { "name": "Boiling water", "amount": "240ml" },
+    { "name": "Salt", "amount": "1 tsp" }
+  ],
+  "instructions": [
+    "Rinse the rice in a sieve under cold water, stirring with your hands, until the water runs clear, about 1 minute. Cover with cold water and soak for 10 to 30 minutes. Finely dice the onion.",
+    "Melt the butter in a medium saucepan over a medium-high heat. Cook the onion, stirring now and then, until it begins to soften, about 5 minutes. Add the cardamom, cinnamon and cloves and cook, stirring, until very fragrant, about 1 minute.",
+    "Stir in the coconut milk, boiling water and salt. Drain the rice and add it. Turn the heat to low, cover and cook until the liquid is absorbed and the rice tender, about 15 minutes.",
+    "Off the heat, leave covered for at least 10 minutes, then fluff with a fork. Fish out the cinnamon and cardamom, or warn your guests. Serve hot. Vegan: use coconut or olive oil instead of butter."
+  ],
+  "steps": [
+    { "kind": "add", "items": [{ "name": "Basmati rice", "amount": "200g", "note": "rinsed until the water runs clear, then soaking in cold water" }] },
+    { "kind": "wait", "duration": "10 to 30 minutes", "note": "soaking" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Butter or ghee", "amount": "30g", "note": "medium saucepan, medium-high heat" },
+        { "name": "Yellow onion", "amount": "1 small", "note": "finely diced" }
+      ]
+    },
+    { "kind": "wait", "duration": "5 minutes", "note": "stirring now and then, until the onion begins to soften" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Green cardamom pods", "amount": "5" },
+        { "name": "Cinnamon stick", "amount": "5cm" },
+        { "name": "Ground cloves", "amount": "½ tsp" }
+      ]
+    },
+    { "kind": "wait", "duration": "1 minute", "note": "stirring, until very fragrant" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Coconut milk", "amount": "120ml" },
+        { "name": "Boiling water", "amount": "240ml" },
+        { "name": "Salt", "amount": "1 tsp" },
+        { "name": "Soaked rice", "amount": "all of it", "note": "drained; heat to low, lid on" }
+      ]
+    },
+    { "kind": "wait", "duration": "15 minutes", "note": "until the liquid is absorbed and the rice tender; turn off the heat" },
+    { "kind": "wait", "duration": "10 minutes", "note": "resting, covered; then fluff with a fork and remove the cinnamon and cardamom" }
+  ]
+}

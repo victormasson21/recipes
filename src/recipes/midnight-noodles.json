@@ -1,0 +1,41 @@
+{
+  "id": "midnight-noodles",
+  "title": "Midnight noodles",
+  "tag": "to-try",
+  "ingredients": [
+    { "name": "Chinese dried wheat or buckwheat noodles", "amount": "200g, or 300g fresh" },
+    { "name": "Spring onions", "amount": "2, green parts only" },
+    { "name": "Tamari soy sauce", "amount": "3 to 4 tbsp" },
+    { "name": "Chinkiang vinegar", "amount": "2 tbsp" },
+    { "name": "Chilli oil with its sediment", "amount": "4 tbsp" },
+    { "name": "Sesame oil", "amount": "1 tsp" },
+    { "name": "Eggs", "amount": "1 or 2 per person, optional" },
+    { "name": "Preserved olive vegetable", "amount": "a spoonful, optional" }
+  ],
+  "instructions": [
+    "Combine the soy sauce, vinegar, chilli oil and sesame oil in a serving bowl. Finely slice the spring onion greens.",
+    "Cook the noodles. Rinse, drain and tip into the bowl. Scatter over the spring onions and mix well before eating.",
+    "If you like, top with eggs fried on both sides and a spoonful of olive vegetable. Serves two."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Tamari soy sauce", "amount": "3 to 4 tbsp", "note": "in a serving bowl" },
+        { "name": "Chinkiang vinegar", "amount": "2 tbsp" },
+        { "name": "Chilli oil", "amount": "4 tbsp", "note": "with its sediment" },
+        { "name": "Sesame oil", "amount": "1 tsp", "note": "stir" }
+      ]
+    },
+    { "kind": "add", "items": [{ "name": "Noodles", "amount": "200g dried or 300g fresh", "note": "into boiling water" }] },
+    { "kind": "wait", "duration": "Packet time", "note": "then rinse, drain and tip into the bowl" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Spring onion greens", "amount": "2", "note": "finely sliced; mix well" },
+        { "name": "Eggs", "amount": "1 or 2 per person", "note": "fried on both sides, optional" },
+        { "name": "Olive vegetable", "amount": "a spoonful", "note": "optional" }
+      ]
+    }
+  ]
+}

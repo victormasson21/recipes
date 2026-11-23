@@ -1,0 +1,47 @@
+{
+  "id": "creamy-avocado-risotto",
+  "title": "Creamy avocado risotto",
+  "tag": "to-try",
+  "ingredients": [
+    { "name": "Risotto rice", "amount": "200g" },
+    { "name": "Ripe avocados", "amount": "2" },
+    { "name": "Garlic clove", "amount": "1" },
+    { "name": "Yellow onion", "amount": "1" },
+    { "name": "Vegetable stock", "amount": "600ml" },
+    { "name": "Lemon", "amount": "1, juiced" },
+    { "name": "Olive oil", "amount": "a glug" },
+    { "name": "Salt", "amount": "to taste" },
+    { "name": "Black pepper", "amount": "to taste" },
+    { "name": "Toasted pine nuts or pistachios", "amount": "to serve, optional" }
+  ],
+  "instructions": [
+    "Heat the olive oil in a casserole. Roughly chop the onion and finely chop the garlic.",
+    "Soften the onion and garlic in the oil over a medium heat. Add the rice and stir until translucent.",
+    "Cover with the stock and cook on a low heat until the liquid is absorbed, stirring regularly so the rice does not stick.",
+    "Mash the avocados and stir in with the lemon juice. Season with pepper, and salt if needed. Eat at once, with toasted pine nuts or pistachios for crunch."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Olive oil", "amount": "a glug", "note": "casserole, medium heat" },
+        { "name": "Yellow onion", "amount": "1", "note": "roughly chopped" },
+        { "name": "Garlic clove", "amount": "1", "note": "finely chopped" }
+      ]
+    },
+    { "kind": "wait", "duration": "Until soft" },
+    { "kind": "add", "items": [{ "name": "Risotto rice", "amount": "200g", "note": "stir" }] },
+    { "kind": "wait", "duration": "Until translucent" },
+    { "kind": "add", "items": [{ "name": "Vegetable stock", "amount": "600ml", "note": "heat to low" }] },
+    { "kind": "wait", "duration": "Until the liquid is absorbed", "note": "about 20 minutes, stirring regularly so it does not stick" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Avocados", "amount": "2", "note": "mashed" },
+        { "name": "Lemon juice", "amount": "1 lemon" },
+        { "name": "Salt and black pepper", "amount": "to taste" },
+        { "name": "Toasted pine nuts or pistachios", "amount": "a handful", "note": "to serve, at once" }
+      ]
+    }
+  ]
+}

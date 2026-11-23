@@ -1,0 +1,72 @@
+{
+  "id": "cauliflower-yassa-olives",
+  "title": "Cauliflower yassa with olives",
+  "tag": "to-try",
+  "ingredients": [
+    { "name": "Large cauliflower", "amount": "1" },
+    { "name": "Onions", "amount": "1kg" },
+    { "name": "Pitted green olives", "amount": "a handful" },
+    { "name": "Garlic cloves", "amount": "2" },
+    { "name": "Fresh ginger", "amount": "1 tsp grated, or ground" },
+    { "name": "Flat-leaf parsley", "amount": "a handful, chopped" },
+    { "name": "Bay leaves", "amount": "2" },
+    { "name": "Mustard", "amount": "2 tbsp" },
+    { "name": "Lemon", "amount": "1, juiced" },
+    { "name": "Olive oil", "amount": "3 tbsp" },
+    { "name": "Coconut sugar", "amount": "1 tbsp" },
+    { "name": "Salt", "amount": "to taste" },
+    { "name": "Black pepper", "amount": "to taste" },
+    { "name": "Rice", "amount": "to serve" }
+  ],
+  "instructions": [
+    "Cut the cauliflower into large thick pieces. Slice the onions thinly.",
+    "In a large bowl, mix the mustard, lemon juice, salt, pepper, finely chopped garlic and the ginger. Add the onions and cauliflower and toss. Marinate for 1 hour, or overnight if you can.",
+    "Lift the cauliflower out of the marinade and set aside. Heat 2 tbsp olive oil in a non-stick pan and cook the onions until translucent.",
+    "Add the coconut sugar, bay leaves, parsley and olives and stir. Add 3 tbsp water, cover and cook until the onions are meltingly soft.",
+    "Meanwhile, heat the remaining oil in a frying pan and fry the cauliflower pieces until lightly golden, keeping them fairly firm.",
+    "Add the cauliflower to the onions, stir, adjust the seasoning and serve hot with rice."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Mustard", "amount": "2 tbsp", "note": "in a large bowl" },
+        { "name": "Lemon juice", "amount": "1 lemon" },
+        { "name": "Salt and black pepper", "amount": "to taste" },
+        { "name": "Garlic cloves", "amount": "2", "note": "finely chopped" },
+        { "name": "Fresh ginger", "amount": "1 tsp", "note": "grated" },
+        { "name": "Onions", "amount": "1kg", "note": "thinly sliced" },
+        { "name": "Cauliflower", "amount": "1 large", "note": "large thick pieces; toss everything together" }
+      ]
+    },
+    { "kind": "wait", "duration": "1 hour", "note": "marinating, or overnight; then lift out the cauliflower and set aside" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Olive oil", "amount": "2 tbsp", "note": "non-stick saucepan" },
+        { "name": "Marinated onions", "amount": "all of them" }
+      ]
+    },
+    { "kind": "wait", "duration": "Until translucent" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Coconut sugar", "amount": "1 tbsp" },
+        { "name": "Bay leaves", "amount": "2" },
+        { "name": "Flat-leaf parsley", "amount": "a handful", "note": "chopped" },
+        { "name": "Green olives", "amount": "a handful", "note": "pitted; stir" },
+        { "name": "Water", "amount": "3 tbsp", "note": "lid on" }
+      ]
+    },
+    { "kind": "wait", "duration": "Until the onions are meltingly soft", "note": "fry the cauliflower meanwhile" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Olive oil", "amount": "1 tbsp", "note": "frying pan, hot" },
+        { "name": "Marinated cauliflower", "amount": "all of it" }
+      ]
+    },
+    { "kind": "wait", "duration": "Until lightly golden", "note": "the pieces should stay fairly firm" },
+    { "kind": "add", "items": [{ "name": "Fried cauliflower", "amount": "all of it", "note": "into the onions, stir, adjust the seasoning; serve hot with rice" }] }
+  ]
+}

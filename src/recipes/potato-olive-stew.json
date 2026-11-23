@@ -1,0 +1,64 @@
+{
+  "id": "potato-olive-stew",
+  "title": "Potato and olive stew",
+  "tag": "to-try",
+  "ingredients": [
+    { "name": "Medium potatoes", "amount": "8" },
+    { "name": "Large onion", "amount": "1" },
+    { "name": "Peeled chopped tomatoes", "amount": "400g" },
+    { "name": "Tomato purée", "amount": "1 tsp" },
+    { "name": "Olives", "amount": "a handful" },
+    { "name": "Garlic cloves", "amount": "2" },
+    { "name": "Fresh coriander", "amount": "a few sprigs" },
+    { "name": "Unrefined sugar", "amount": "1 tsp" },
+    { "name": "Ground cumin", "amount": "1 tsp" },
+    { "name": "Turmeric", "amount": "1 tsp" },
+    { "name": "Smoked paprika", "amount": "1 tsp" },
+    { "name": "Hot chilli", "amount": "a pinch" },
+    { "name": "Extra virgin olive oil", "amount": "2 tbsp" },
+    { "name": "Salt", "amount": "to taste" },
+    { "name": "Black pepper", "amount": "to taste" }
+  ],
+  "instructions": [
+    "Peel and slice the onion, finely chop the garlic. Wash the potatoes well, peel or not, and quarter them.",
+    "Heat the olive oil in a casserole over a high heat and brown the onion lightly.",
+    "Add the tomatoes, tomato purée, garlic, sugar and spices, season with salt and pepper and stir. Simmer gently for 20 minutes.",
+    "Add the potatoes and olives to the sauce with a small glass of water. Cover and cook on a low heat until a knife goes into the potatoes without resistance.",
+    "Scatter with chopped coriander before serving."
+  ],
+  "steps": [
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Extra virgin olive oil", "amount": "2 tbsp", "note": "casserole, high heat" },
+        { "name": "Onion", "amount": "1 large", "note": "peeled and sliced" }
+      ]
+    },
+    { "kind": "wait", "duration": "Until lightly coloured" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Chopped tomatoes", "amount": "400g" },
+        { "name": "Tomato purée", "amount": "1 tsp" },
+        { "name": "Garlic cloves", "amount": "2", "note": "finely chopped" },
+        { "name": "Unrefined sugar", "amount": "1 tsp" },
+        { "name": "Ground cumin", "amount": "1 tsp" },
+        { "name": "Turmeric", "amount": "1 tsp" },
+        { "name": "Smoked paprika", "amount": "1 tsp" },
+        { "name": "Hot chilli", "amount": "a pinch" },
+        { "name": "Salt and black pepper", "amount": "to taste", "note": "stir, heat to low" }
+      ]
+    },
+    { "kind": "wait", "duration": "20 minutes", "note": "simmering gently" },
+    {
+      "kind": "add",
+      "items": [
+        { "name": "Potatoes", "amount": "8", "note": "washed, quartered, peeled or not" },
+        { "name": "Olives", "amount": "a handful" },
+        { "name": "Water", "amount": "a small glass", "note": "lid on, low heat" }
+      ]
+    },
+    { "kind": "wait", "duration": "Until the potatoes are tender", "note": "a knife goes in without resistance" },
+    { "kind": "add", "items": [{ "name": "Fresh coriander", "amount": "a few sprigs", "note": "chopped, scattered over to serve" }] }
+  ]
+}
